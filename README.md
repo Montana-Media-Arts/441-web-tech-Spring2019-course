@@ -12,7 +12,7 @@ This course focuses on media integration, interactivity, client-side development
 ### Updated By:
 
 - Professor Michael Cassens
-- E-Mail: [michael.musick@umontana.edu](mailto:michael.cassens@umontana.edu).
+- E-Mail: [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu).
 - Office: McGill Hall, 232.
 
 
