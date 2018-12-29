@@ -6,16 +6,16 @@ This course focuses on media integration, interactivity, client-side development
 
 
 
-- [_Web Tech_ Website](https://montana-media-arts.github.io/web-tech/)
+- [_Web Tech_ Website](https://montana-media-arts.github.io/web-tech-Spring2019/)
 
 
-### Designed by
+### Updated By:
 
-- Professor Michael Musick
-- E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
+- Professor Michael Cassens
+- E-Mail: [michael.musick@umontana.edu](mailto:michael.cassens@umontana.edu).
 - Office: McGill Hall, 232.
 
 
 ### Updated
 
-This course was last updated: 2018-01-22
+This course was last updated: 2018-12-29
