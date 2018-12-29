@@ -16,7 +16,7 @@ This online advanced web technologies course will explore the latest in web tech
 The [**syllabus**]({{ site.baseurl }}/syllabus/ ) contains more information about the course, as well as student expectations.
 
 
-This course was built and is delivered by [Michael Musick]({{ site.baseurl }}/instructor/ ).
+This course is delivered by [Michael Cassens]({{ site.baseurl }}/instructor/ ).
 
 
 ### Start the Course!
