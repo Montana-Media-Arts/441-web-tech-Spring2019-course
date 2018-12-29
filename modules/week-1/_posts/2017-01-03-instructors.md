@@ -12,26 +12,26 @@ What follows is a more detailed introduction to the people delivering this class
 
 <!-- <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Fyqb7vTyMN4" frameborder="0" allowfullscreen></iframe></div> -->
 
-## Dr. Michael Musick
+## Michael Cassens
 
-I am the professor who built and is now iterating this course. I am also the instructor of record for this course. If you have any significant problems, administrative or technical, you will need to come to me about them.
+I am the professor who is now delivering this course. I am also the instructor of record for this course. If you have any significant problems, administrative or technical, you will need to come to me about them.
 
 I am excited to work with you, and guide you through the journey of beginning to code!
 
-Please feel free to leverage my office hours. I would love it if each and everyone of you who are in Missoula could come by sometime in the first few weeks to introduce yourself. For those of you who are distance learners, please take a moment to look at my website ([michaelmusick.com](http://michaelmusick.com)) and consider sending me an email about yourself, along with something to help me get to know you better, like your own website, or links to your creative work.
+Please feel free to leverage my office hours. I would love it if each and everyone of you who are in Missoula could come by sometime in the first few weeks to introduce yourself. For those of you who are distance learners, please consider sending me an email about yourself, along with something to help me get to know you better, like your own website, or links to your creative work.  You are also welcome to set up a Zoom meeting with me and we can get to know one another better that way as well.
 
-With all of that being said, I want to point out that I am incredibly busy. I will work to respond to your questions and problems as quickly as I can. E-mail is the second best way to get a hold of me. I will check my e-mail at least once per day. My office hours are **THE BEST** way to get help from me. They will be posted and updated in the ["Instructors"]({{site.baseurl}}/instructors/) tab of this website.
+I would also like to say that I am first and foremost a teacher, so I will work to respond to your questions and problems as quickly as I can. E-mail is the second best way to get a hold of me. I will check my e-mail multiple times a day. My office hours are another way to get help from me. They are posted and updated in the ["Instructors"]({{site.baseurl}}/instructors/) tab of this website.
 
 
 > # Bio
 >
-> Michael Musick is a media artist, creative technologist, composer, performer and improviser.  His current practice and research is collected under The Sonic Spaces Project which aims to create, explore, and define sonic space ecosystems; a type of eco-art and interactive music system. This project aims to explore principles of complex systems, natural ecosystems, cybernetics, and emergence, through interactive music systems. Michael has additional research interests in installation art, soundscape, and creative improvisation. As a performer, he uses a computer as his instrument to understand, process, amplify, and play with any sounds occurring within the performance space.
+> Michael Cassens is a teacher, a computer scientist, creative technologist, gamer, game developer and mobile application developer.  His current practice and research is based on how to become a better instructor, how to use gaming practices and theories to deliver better course content as well as build better and more interesting games for the market place using different games engines and mobile platforms.
 >
 > Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his own research, Michael is teaching courses within Digital Arts and Technology. These courses focus on preparing students to contribute to an evolving world using code and modern technology as creative extensions for their own artistic voices and ideas.
 >
-> Prior to Montana, Michael was at New York University, where he earned a PhD in Music Technology. There, he was part of the Computer Music Group within MARL (NYU’s Music and Audio Research Lab) and the Citygram research group.  Prior to NYU, he earned an M.A. in Media Arts from the University of Michigan, where he began his work with performance systems while continuing his studies in creative improvisation and multi-media performance.  Michael also has a background in tuba performance and recording arts; holding performance degrees from The University of Southern California (M.Mus ’09) and The University of Colorado (B.Mus ’07). Originally from Arvada, Colorado, Michael is a lover of the mountains, snow, and wandering among the aspen or pine trees.
+> Prior to the Media Arts Department, Michael taught in the Computer Science Department for approximately 18 years as an Adjunct and Lecturer.  He has taught a number of courses including Introduction to Programming, Fundamentals of Computer Science I and II, Data Stuctures, Algorithms, SOftware Science, Database Design, Game and Mobile Application Programming, Advanced Client-Side Web Programming and Advanced Server-Side Web Programming. Michael also started his own consulting company 2002 in which he still operates building software for small to medium sized businesses.  Michael has a BA in Biology as well as a M.S. Computer Science. Originally from Boulder, Colorado, then St. Louis, MO, then, Victor, MT, Michael loves being outside with his family as well as mountain biking, snowboarding, hiking, photography, and just being in nature.
 >
-> For more information please visit his personal site at [michaelmusick.com](http://michaelmusick.com) .
+> For more information please visit his consulting site at [silverleaf-consulting.com](http://silverleaf-consulting.com) .
 
 
 
