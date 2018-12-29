@@ -15,14 +15,14 @@ First, we will create a new repo directly on GitHub.com. We will then turn it on
 1. Go to [GitHub.com](https://github.com)
 2. If you are not signed in, sign in to your GitHub account
 3. Find the green "New repository" button and press it.
-![new repo button on guthub.com](../imgs/newrepo.png)
+![new repo button on guthub.com](../imgs/Screen5.png)
 4. Give your repository a great name, like "_441_".
     - Optionally, give this repo a description, like "_Homework repo for UMontana Media Arts, Web Tech (MART441) course._".
 5. Keep this as a "Public" repo.
 6. Select the "Initialize this repository with a README" box.
 7. Finally press the "Create Repository" button.
 
-![Create repo window](../imgs/newrepowindow.png)
+![Create repo window](../imgs/Screen6.png)
 
 
 <br />
@@ -36,7 +36,7 @@ To turn your repo into a GH-Pages site, you need to open the "Repository Setting
 
 > If you are unfamiliar with GitHub Pages, check out their [info site](https://pages.github.com)
 
-![Repo Settings Button](../imgs/reposettings.png)
+![Repo Settings Button](../imgs/Screen7.png)
 
 1. Inside of settings, you will need to scroll down until you fine the "GitHub Pages" section.
 2. There you need to change the dropdown menu under source from "None▾" to "master branch".
@@ -45,13 +45,13 @@ To turn your repo into a GH-Pages site, you need to open the "Repository Setting
 5. If you scroll back down the page to the "GitHub Pages" section again,
 6. You will find the URL where your site will eventually be published to.
 
-![GitHub Pages Section](../imgs/ghpages.png)
+![GitHub Pages Section](../imgs/Screen8.png)
 
 ## 3. Go To Your New Site
 
 First, wait a few moments up to a few minutes, for GitHub to "publish" your site. Then, click on the link provided from the "Settings" page. This should bring you to a static white page, displaying the contents of your README.md file.
 
-![Example of README as homepage](../imgs/readme-homepage.png)
+![Example of README as homepage](../imgs/Screen9.png)
 
 Since we have not added and pushed an index.html document yet, GitHub uses your repo's main readme instead.
 
@@ -61,7 +61,7 @@ Since we have not added and pushed an index.html document yet, GitHub uses your 
 2. Select the "Clone or Download" button on this main page.
 3. If you are using the GitHub Desktop app, then you simply need to press the "Open in Desktop" button. If instead you are using another app, copy the git URL that pops up.
 
-![Open in Desktop Button](../imgs/openindesktop.png)
+![Open in Desktop Button](../imgs/Screen10.png)
 
 #### For GitHub Desktop Users
 
@@ -71,7 +71,7 @@ Since we have not added and pushed an index.html document yet, GitHub uses your 
 4. GitHub Desktop.app will suggest a directory name that is based on the repo name. Feel free to change that in the "Local Path" line to something else.
 5. Finally, click "Clone".
 
-![Clone a Repository Box](../imgs/clonerepo.png)
+![Clone a Repository Box](../imgs/Screen11.png)
 
 #### For Other App Users
 
@@ -87,16 +87,16 @@ Since we have not added and pushed an index.html document yet, GitHub uses your 
 
 Finally, you should open the new local copy of the repo directory in your text editor. If you are using GitHub Desktop.app, you can select the "Open in Atom" or "Open in Visual Studio Code" option from the "Repository" dropdown menu (depending on the text editor you have installed and setup with GitHub Desktop.app)
 
-![Open in Atom option](../imgs/open-in-editor.png)
+![Open in Atom option](../imgs/Screen12.png)
 
 ## 6. Add the Base URL of Your New Site to README.md
 
 1. Copy the URL from the repo settings that is your new sites "base url".
-![copy base url](../imgs/copybase.png)
+![copy base url](../imgs/Screen13.png)
 
 2. Paste this URL into the README.md file in your text editor. Then save this up.
     - (This could be used throughout the semester so you do not have to remember the URL)
-![Add URL to Readme.md](../imgs/urlreadme.png)
+![Add URL to Readme.md](../imgs/Screen14.png)
 
 ## 7. Create a New 'index.html' File
 
@@ -107,31 +107,32 @@ Finally, you should open the new local copy of the repo directory in your text e
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Prof. Musick's 441 Site</title>
+        <title>Michael's 441 Site</title>
     </head>
     <body>
-        <h1>Prof. Musick's 441 Homework Site</h1>
+        <h1>Michael's 441 Homework Site</h1>
 
-        <p>This is the main homepage for Prof. Musick's example homework site for mart441. This website is where all live examples will be located throughout the semester.</p>
+        <p>This is the main homepage for Michael Cassens's example homework site for mart441. 
+        This website is where all live examples will be located throughout the semester.</p>
     </body>
 </html>
 ```
 
-![basic home page in atom editor](../imgs/basic-page.png)
+![basic home page in Visual Code editor](../imgs/Screen15.png)
 
 ## 8. Commit Changes and Push to GitHub.com
 
 1. Back in GitHub Desktop.app or your Git app / CLI, stage & commit your changes to the repo.
-![GitHub Desktop App commit example](../imgs/ghcommit.png)
+![GitHub Desktop App commit example](../imgs/Screen16.png)
 
 2. Next, Push your commits to the remote repository on GitHub.com, thereby sync-ing the remote and local versions of the repo.
-![Push a repo to remote](../imgs/push.png)
+![Push a repo to remote](../imgs/Screen17.png)
 
 ## 9. Verify Sync on GitHub.com
 
 1. In your browser, navigate back to your repository on github.com.
 2. You should now see the updated README.md being displayed, as well as the existence of the 'index.html' file.
-![Updated repo on github.com](../imgs/updated-repo.png)
+![Updated repo on github.com](../imgs/Screen18.png)
 
 ## 10. Navigate to the New Site Homepage
 
@@ -139,4 +140,4 @@ Finally, you should open the new local copy of the repo directory in your text e
     - i.e. https://YOUR-USERNAME.github.io/YOUR-REPO-NAME
 2. After a few minutes, GitHub should update its information, and you will see your new homepage that came from the 'index.html' document.
 
-![Updated GH-Pages homepage](../imgs/updated-homepage.png)
+![Updated GH-Pages homepage](../imgs/Screen19.png)
