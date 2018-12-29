@@ -12,7 +12,7 @@ This means you need to be comfortable with your computer and *know* your compute
 ## Command-line interface (CLI)
 
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
-![example image of terminal.app](../imgs/terminalExample.jpg)
+![example image of terminal.app](../imgs/Screen1.png)
 
 Although such programs can appear intimidating to a beginner user, these command line programs remove are simple applications that allow for detailed control of the OS. These programs allow a user to accomplish many of that same tasks that they are used to completing with a mouse, through text only commands. One reason to use such a program is that it can speed up the development process and also display more information than is typical of a traditional “graphical user interface” (GUI; pronounced ‘gooey’) based environment.
 
@@ -22,8 +22,9 @@ One advantage of a CLI over a GUI-based file browser is quicker manipulation of 
 
 > Note: "Directories" and "Folders" are the same thing. These will be interchangable throughout this course.
 
+<!--  Might want to create a video here...
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
-
+-->
 ## Learning your CLI
 
 ### - Unix
@@ -59,7 +60,7 @@ After downloading the program, right-click the install executable, and select "R
 
 This will install a program known as "Git", along with one called "Git Bash". You can now open "Git Bash".
 
-![Git Bash](../imgs/gitbash.png)
+![Git Bash](../imgs/Screen2.png)
 
 After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through the following PDF book.
 
