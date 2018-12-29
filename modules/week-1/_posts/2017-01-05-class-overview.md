@@ -66,10 +66,10 @@ When you have problems in this course, you have a number of solutions available 
     - If you need to contact them directly, please use email
         - [TBA](mailto:michael.cassens@umontana.edu?subject=441%20Question)
 5. Get help from [Michael Cassens]({{site.baseurl}}/instructors/#instructor-prof-michael-cassens)
-    - If you have a high level problem, or need help that no one can offer, please contact Michael Cassens.
+    - If you have a problem, or need help that no one can offer, please contact Michael Cassens.
     - One way to get a hold of me is to swing by my weekly office hours. These are posted (and updated) under my [office hours section]({{site.baseurl}}/instructors/#office-hours). This is another way is to email me.
     - If you are a distance student or cannot make one of those times, please email me. (I will check my email multiple times a day)
-        - [michael.cassens@umonatan.edu](mailto:michael.cassens@umontana.edu?subject=441%20Question)
+        - [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu?subject=441%20Question)
 
 <br />
 
