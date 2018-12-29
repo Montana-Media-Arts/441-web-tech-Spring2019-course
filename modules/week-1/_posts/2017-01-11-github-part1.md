@@ -19,7 +19,7 @@ By "watching" the course repository you will be get notifications about new issu
 
 To watch the course repo;
 
-- Navigate to [https://github.com/Montana-Media-Arts/441-WebTech/](https://github.com/Montana-Media-Arts/441-WebTech/). This issues forum for this site is also linked to from the "Issues-Forum" tab above in the navbar.
+- Navigate to [https://github.com/Montana-Media-Arts/441-WebTech-Spring2019](https://github.com/Montana-Media-Arts/441-WebTech-Spring2019). This issues forum for this site is also linked to from the "Issues-Forum" tab above in the navbar.
 - In the upper right-hand corner, you should select both "watching" and "star".
     - This will allow GitHub to e-mail you about notifications and issues in the course repo.
     - **Part of your grade for this course is based on _participation_. This is how you participate.**
@@ -27,11 +27,11 @@ To watch the course repo;
         - If you get an email about a new issue, try to help the person out.
         - Your participation grade will be based on how active you were on the GitHub issues forum, as well as comments to your classmates to their weekly homework assignments.
 
-![Follow and Star Repositories on GitHub.com](../imgs/Follow-Star-Github.png)
+![Follow and Star Repositories on GitHub.com](../imgs/Screen3.png)
 
 ## Create a new “Issue”
 
-To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/441-WebTech/issues).
+To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/441-WebTech-Spring2019/issues).
 
 There you can search open issues to try and;
 
@@ -40,11 +40,13 @@ There you can search open issues to try and;
 
 If no issue matches your problem, you can open a "New Issue". This allows you to describe your problem, thereby allows everyone in the class to help work on it.
 
-![New Issue button(../imgs/newissue.png)
+![New Issue button](../imgs/Screen4.png)
 
 
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 
 As the semester goes on you will be expected to open issues here when you are having problems. You will also be graded on your involvement in the course issue board and your responses provided to fellow classmates throughout the semester.
 
+<!-- maybe another video here too
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNBQ2Oe4orY" frameborder="0" allowfullscreen></iframe></div>
+-->
