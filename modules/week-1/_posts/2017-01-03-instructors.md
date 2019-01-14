@@ -34,17 +34,17 @@ I would also like to say that I am first and foremost a teacher, so I will work 
 > For more information please visit his consulting site at [silverleaf-consulting.com](http://silverleaf-consulting.com) .
 
 
-
+<!--
 ## Teaching Assistant - TBA
 
 We will have a Teaching Assistant. When this person contact is available, I will email the class. I will also post their information in the ["Instructors"]({{site.baseurl}}/instructors/) tab.
 
 If you are unable to solve problems on your own or through the course "issues forum" (more to come on that later), you should e-mail the TA for help.
-
+-->
 <!-- video -->
 
 ## Lab Assistants
 
-In addition to the TA, Media Arts continues to provide help to all online students through the 127 Media Arts Lab in McGill. This lab is staffed by wonderful MFA students who are prepared to answer your questions, or help you figure out how to answer your questions.
+ Media Arts continues to provide help to all online students through the 127 Media Arts Lab in McGill. This lab is staffed by wonderful MFA students who are prepared to answer your questions, or help you figure out how to answer your questions.
 
 Lab hours, along with Lab Assistant information will be posted in the ["Help"]({{site.baseurl}}/help/) tab.
