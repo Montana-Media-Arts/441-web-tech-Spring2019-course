@@ -37,11 +37,7 @@ When appropriate, there will be information about what the code is you are looki
    - This is Cascading Style Sheets
 - **JS**
     - or JavaScript, which specifies the code you are looking at is general JavaScript.
-<!-- 
-**BASH**
-    - This is code for the command line application of your choice or OS.
-    - Please remember that, you will copy or type text that comes after the dollar sign (`$`).
--->
+
 # Code Results Output
 
 Whenever possible and appropriate, I will also work to show you what the code output we are working on should look like. These sections will be surrounded with a big border.
