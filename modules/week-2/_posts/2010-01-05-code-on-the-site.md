@@ -33,7 +33,7 @@ When appropriate, there will be information about what the code is you are looki
 
 - **HTML**
     - This is HTML code.
-  **CSS**
+- **CSS**
    - This is Cascading Style Sheets
 - **JS**
     - or JavaScript, which specifies the code you are looking at is general JavaScript.
