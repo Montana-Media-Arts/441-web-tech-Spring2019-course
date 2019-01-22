@@ -12,7 +12,7 @@ The goal of the "Hello World!" program is to introduce you to the language, and 
 
 > #### Browser Recommendation
 >
-> Before we proceed, I wanted to quickly add a note on tools and technologies. All examples for this course will be tested and demo'd with [Google Chrome browser](https://www.google.com/chrome/). I would suggest you download, install, and use Chrome for this course.
+> Before we proceed, I wanted to quickly add a note on tools and technologies. All examples for this course will be tested and demo'd with [Google's Chrome browser](https://www.google.com/chrome/). I would suggest you download, install, and use Chrome for this course.
 
 ## A Series of Statements
 
