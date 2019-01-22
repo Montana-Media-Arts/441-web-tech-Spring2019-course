@@ -6,9 +6,9 @@ jotted: true
 
 # Code on This Site
 
-
+<!--
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dK9cVaLtjaw" frameborder="0" allowfullscreen></iframe></div>
-
+-->
 
 Now that we have started looking at code, I want to mention a few specifics about how code will work and what it will look like on this site.
 
@@ -33,12 +33,15 @@ When appropriate, there will be information about what the code is you are looki
 
 - **HTML**
     - This is HTML code.
+  **CSS**
+   - This is Cascading Style Sheets
 - **JS**
     - or JavaScript, which specifies the code you are looking at is general JavaScript.
-- **BASH**
+<!-- 
+**BASH**
     - This is code for the command line application of your choice or OS.
     - Please remember that, you will copy or type text that comes after the dollar sign (`$`).
-
+-->
 # Code Results Output
 
 Whenever possible and appropriate, I will also work to show you what the code output we are working on should look like. These sections will be surrounded with a big border.
