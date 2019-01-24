@@ -6,6 +6,8 @@ jotted: true
 
 # Values, Data Types, & Operators
 
+--- insert video here
+
 Please read the following;
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
