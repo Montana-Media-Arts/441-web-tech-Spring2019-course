@@ -6,6 +6,7 @@ jotted: true
 
 # Program Structure
 
+
 Please read the following chapter from;
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
@@ -59,7 +60,7 @@ At the end of the chapter you should have an understanding for;
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/le-URjBhevE" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7WkfzokHGqo" frameborder="0" allowfullscreen></iframe></div>
+<!--<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7WkfzokHGqo" frameborder="0" allowfullscreen></iframe></div>
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kVOmc7NK1M0" frameborder="0" allowfullscreen></iframe></div>
 
@@ -67,4 +68,4 @@ At the end of the chapter you should have an understanding for;
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r7v6EIiHfVA" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fM5qnyasUYI" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fM5qnyasUYI" frameborder="0" allowfullscreen></iframe></div>-->
