@@ -6,7 +6,7 @@ jotted: true
 
 # Values, Data Types, & Operators
 
---- insert video here
+
 
 Please read the following;
 
