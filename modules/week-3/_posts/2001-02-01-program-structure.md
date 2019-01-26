@@ -28,7 +28,7 @@ At the end of the chapter you should have an understanding for;
             - Recognize that the latter of these is unchangeable
 
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/7OLJsDclVXY" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/7OLJsDclVXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 - Have a basic grasp of what a _Function_ is
     - especially;
@@ -36,7 +36,7 @@ At the end of the chapter you should have an understanding for;
         - `prompt()`
 
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/smVWNLrZnz4" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/smVWNLrZnz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 - Recognize that the _functions_ can produce _Return Values_
 - _Control Flow_
@@ -51,7 +51,7 @@ At the end of the chapter you should have an understanding for;
         - `switch`
 
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/-UZdpIUFGQo" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/-UZdpIUFGQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 - Basic coding standards and conventions
     - Use proper "naming conventions" when creating bindings
@@ -68,4 +68,4 @@ At the end of the chapter you should have an understanding for;
     - `--`
 
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/G4v2oGLIIYw" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/G4v2oGLIIYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

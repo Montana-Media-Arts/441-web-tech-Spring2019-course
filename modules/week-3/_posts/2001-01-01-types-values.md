@@ -47,20 +47,20 @@ At the end of the chapter you should have an understanding for;
         - modulo on numbers (`%`)
     
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/isrkyyJfAz4" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/isrkyyJfAz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     - String operators
         - String concatenation (`+`)
     
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/DTk3ptbINGo" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/DTk3ptbINGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     - Unary Operators
         - `typeof`
 
     
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/O6_MphRS0E8 " frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/O6_MphRS0E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     - Comparison Operators
         - `<`, `>`,`<=`, `>=`, `==`, `!=`
@@ -71,7 +71,7 @@ At the end of the chapter you should have an understanding for;
     - Type Conversion
     
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/yjg6D7B7ozM" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/yjg6D7B7ozM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
 ## Interactive JS Console
