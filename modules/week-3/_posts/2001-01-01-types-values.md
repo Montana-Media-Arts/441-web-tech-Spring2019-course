@@ -102,6 +102,3 @@ While you work on this chapter, you should use the following interactive JS cons
 
 ## Videos
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/808eYu9B9Yw" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vd_Z1bYGrCM" frameborder="0" allowfullscreen></iframe></div>
