@@ -38,7 +38,7 @@ At the end of the chapter you should have an understanding for;
     - Booleans
 
 **Video**
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/XSI_ta0mvOE" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/XSI_ta0mvOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 - **Operators**
     - Basic mathematical operators
