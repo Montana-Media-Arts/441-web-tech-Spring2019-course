@@ -97,8 +97,3 @@ While you work on this chapter, you should use the following interactive JS cons
     ]
 });
 </script>
-
-
-
-## Videos
-
