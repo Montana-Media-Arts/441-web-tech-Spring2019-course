@@ -36,15 +36,32 @@ At the end of the chapter you should have an understanding for;
         - special characters (i.e., `\n`, `\t`)
         - template literal strings (``these use backticks and have special properties``)
     - Booleans
+
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/XSI_ta0mvOE" frameborder="0" allowfullscreen></iframe></div>
+
 - **Operators**
     - Basic mathematical operators
         - addition/subtraction on numbers (`+`/`-`)
         - multiplication/division on numbers (`*`/`/`)
         - modulo on numbers (`%`)
+    
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/isrkyyJfAz4" frameborder="0" allowfullscreen></iframe></div>
+
     - String operators
         - String concatenation (`+`)
+    
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/DTk3ptbINGo" frameborder="0" allowfullscreen></iframe></div>
+
     - Unary Operators
         - `typeof`
+
+    
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/O6_MphRS0E8 " frameborder="0" allowfullscreen></iframe></div>
+
     - Comparison Operators
         - `<`, `>`,`<=`, `>=`, `==`, `!=`
     - Logical Operators
@@ -52,6 +69,9 @@ At the end of the chapter you should have an understanding for;
         - and - `&&`
         - not - `!`
     - Type Conversion
+    
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/yjg6D7B7ozM" frameborder="0" allowfullscreen></iframe></div>
 
 
 ## Interactive JS Console

@@ -26,10 +26,18 @@ At the end of the chapter you should have an understanding for;
         - `var`
         - `const`
             - Recognize that the latter of these is unchangeable
+
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/7OLJsDclVXY" frameborder="0" allowfullscreen></iframe></div>
+
 - Have a basic grasp of what a _Function_ is
     - especially;
         - `console.log()`
         - `prompt()`
+
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/smVWNLrZnz4" frameborder="0" allowfullscreen></iframe></div>
+
 - Recognize that the _functions_ can produce _Return Values_
 - _Control Flow_
     - As well as using _conditional execution_ with control flow
@@ -41,6 +49,10 @@ At the end of the chapter you should have an understanding for;
         - `do{}while()`
         - `break`
         - `switch`
+
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/-UZdpIUFGQo" frameborder="0" allowfullscreen></iframe></div>
+
 - Basic coding standards and conventions
     - Use proper "naming conventions" when creating bindings
         - Including what characters can and cannot be used
@@ -55,17 +67,5 @@ At the end of the chapter you should have an understanding for;
     - `++`
     - `--`
 
-
-## Videos
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/le-URjBhevE" frameborder="0" allowfullscreen></iframe></div>
-
-<!--<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7WkfzokHGqo" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kVOmc7NK1M0" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VwaqJy_clnc" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r7v6EIiHfVA" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fM5qnyasUYI" frameborder="0" allowfullscreen></iframe></div>-->
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/G4v2oGLIIYw" frameborder="0" allowfullscreen></iframe></div>

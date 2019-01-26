@@ -6,6 +6,9 @@ jotted: true
 
 # Functions
 
+**Video**
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://youtu.be/eLZjLu6yIgY" frameborder="0" allowfullscreen></iframe></div>
+
 Okay, so now let's take it a step further and create a function.  Now, do you all feel comfortable with functions also known as methods? 
 
 If not, methods/functions are chunks of code that can be reused and usually perform only one thing.  This is important so we don't have to duplicate code every where.  We want to maximize reusability and minimize maintainability.  That should be your manta!
