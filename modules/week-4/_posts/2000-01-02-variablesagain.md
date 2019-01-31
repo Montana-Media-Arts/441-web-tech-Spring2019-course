@@ -33,11 +33,34 @@ Then, add a textbox into that file.
 ```html
 <html>
     <body>
-        <input id="txtName" type="text">
-        <button id="btnSubmit">Submit</button>
+        <label id="lblName">Your Name Goes Here</label><br>
+        <input id="txtName" type="text"><br>
+        <button id="btnSubmit">Submit</button><br>
     </body>
 </html>
 ```
 
 Now, open the file in your favorite browser (still hopefully Chrome).  Does it show a textbox and a button? Great!
+
+Now, we need to get the information out of the text box.  How are we going to do that?  Well, first then we need to do is get the text from the label.
+
+We need to add some JavaScript to access the DOM (quick check, you remember the DOM right?  If not, it stands for Document Object Model)
+
+```html
+<html>
+    <body>
+        <label id="lblName">Your Name Goes Here</label><br>
+        <input id="txtName" type="text"><br>
+        <button id="btnSubmit">Submit</button><br>
+
+         <script>
+            var currentText = document.getElementById("lblName").innerHTML;
+            // we can either use console.log(currentText); 
+            // to see what is stored in the tag it will show in the console
+            // we can use window.alert(currentText); 
+            // to see what is stored in that tag
+        </script>
+    </body>
+</html>
+```
 

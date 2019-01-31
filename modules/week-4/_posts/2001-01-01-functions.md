@@ -4,22 +4,24 @@ module: 4
 jotted: true
 ---
 
-# Functions
+# Functions In More Depth
 
-_Functions_ are one of the basic building blocks of programming. As you will learn, functions _do something_ in code. Whether that is compute some value that is returned to the main program, or do something else as a side-effect to the main program.
+We have already learned that _Functions_ are one of the basic building blocks of programming. As you have learned, functions _do something_ in code. Whether that is compute some value that is returned to the main program, or do something else as a side-effect to the main program.
 
 The Mozilla Developer Network (MDN) defines functions as follows;
 
 > Generally speaking, a function is a "subprogram" that can be called by code external to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function may return a value.
 
-You have already been using functions. These include;
+Remember you have been using functions. These include;
 
 ```js
 console.log("something to print");
 
 prompt("something to say in a popup box");
 
-window.write("print something to the DOM");
+document.write("print something to the DOM");
+
+window.alert("Hi there!");
 ```
 
 There are many "builtin" functions to JavaScript, which you will learn about and use as you progress.
@@ -33,18 +35,16 @@ JavaScript also allows you to define and use _your own custom_ functions. This i
 As you will learn about in more detail below, functions are called through the invocation of their name, followed by the _function operator_ (`()`).
 
 ```js
-someFunction();
+doSomething();
 ```
 
 #### Supplying Function Parameters
 
-Within in the function operator, you can supply _parameters_ to the function.
+Within in the function operator, you can supply _parameters_ to the function.  These are variables that we can send to the function
 
 ```js
-someFunction( param1, param2 );
+doSomething( param1, param2 );
 ```
-
-Function _parameters_ are pieces of data that the function uses towards computations or as information to do something with.
 
 ## Defining Functions
 
@@ -57,6 +57,92 @@ The first is to call the `function` keyword, followed by;
 - the function name
 - a list of parameters (comma separated) to be used
 - a series of JS statements, within curly brackets (`{}`) to execute when the function is invoked.
+- notice that the function parameters don't have var in front of it
+
+So, if we look at our earlier example, we need to get information out of the textbox.  We will create a function to get it.
+
+```html
+<html>
+    <body>
+        <label id="lblName">Your Name Goes Here</label><br>
+        <input id="txtName" type="text"><br>
+        <button id="btnSubmit">Submit</button><br>
+
+         <script>
+            function getName()
+            {
+                var currentName = document.getElementById("txtName").value;
+                document.getElementById("lblName").innerHTML = currentName;
+                
+            }
+            
+        </script>
+    </body>
+</html>
+```
+
+There are two things to you should notice.  First, look at the **getElementById("txtName").value**  That is new!  To get information from the textbox, you use have get the value instead of the innerHTML.
+
+Second, we are now assigning the currentName to the **getElementById("lblName").innerHTML**
+
+So, look at it in the browser.  Does it work?
+
+No? Dang!  That's because we never called the function.  So, we need to connect it to the button event.  
+
+So, we are going to add the function call the button click event.
+
+It will look like this
+
+```html
+<html>
+    <body>
+        <label id="lblName">Your Name Goes Here</label><br>
+        <input id="txtName" type="text"><br>
+        <button id="btnSubmit" onclick="getName();">Submit</button><br>
+
+         <script>
+            function getName()
+            {
+                var currentName = document.getElementById("txtName").value;
+                document.getElementById("lblName").innerHTML = currentName;
+                
+            }
+            
+        </script>
+    </body>
+</html>
+```
+
+The onclick is an event that is automatically connected to the button.  It says, when I click on my button, then call the getName function.  Cool right?!!
+
+That is the most common way in which you can create a function.  There are other ways.  However, we will look at those as time goes on.
+
+The only other thing we are going to examine is parameters.  What does that look like?
+
+```html
+<html>
+    <body>
+        <label id="lblName">Your Name Goes Here</label><br>
+        <input id="txtName" type="text"><br>
+        <button id="btnSubmit" onclick="getName('Nice to meet you');">Submit</button><br>
+
+         <script>
+            function getName(greeting)
+            {
+                var currentName = document.getElementById("txtName").value;
+                document.getElementById("lblName").innerHTML = currentName + ", " + greeting;
+                
+            }
+            
+        </script>
+    </body>
+</html>
+```
+So, we are sending in the **getName(greeting)** greeting parameter, which means we can send in any message and that will be concatenated to the currentName in the message.
+
+Also, notice the message that is sent into the getName function is surrounded by single quotes **onclick="getName('Nice to meet you');"**  Why is that?  It's because the double quotes start and end the call to the function and so we can't use double quotes again.  However, we can use single quotes.
+
+Below is another example
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
@@ -90,7 +176,7 @@ console.log(val);
 });
 </script>
 
-
+<!--
 #### Function Expression
 
 The second way of defining functions is through _function expressions_, these assign a function to a binding namespace (i.e. a variable).
@@ -125,46 +211,7 @@ console.log( result );
 
 
 _Function Expressions_ work the same as _Function Definitions_, the primary difference is that _Function Expressions_ must be defined **before** they are called. _Function Definitions_ are **hoisted** to the top of the JS interpreter and can be placed anywhere in the code, even after their initial call, as they will be compiled first.
-
-#### Arrow Function
-
-The last type of definition you will learn about is _Arrow Functions_. This technique allows for the concise definition of functions, typically in a single line. This is useful when trying to write concise and clear code.
-
-<div id="jotted-demo-4" class="jotted-theme-stacked"></div>
-
-<script>
-    new Jotted(document.querySelector("#jotted-demo-4"), {
-    files: [
-        {
-            type: "js",
-            hide: false,
-            content:
-`let a = [
-  'Hydrogen',
-  'Helium',
-  'Lithium',
-  'Beryllium'
-];
-
-let a2 = a.map(function(s) { return s.length; });
-
-console.log(a2); // logs [8, 6, 7, 9]
-
-let a3 = a.map(s => s.length);
-
-console.log(a3); // logs [8, 6, 7, 9]
-`
-        }
-    ],
-    showBlank: false,
-    showResult: false,
-    plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        { name: 'console', options: { autoClear: true } },
-    ]
-});
-</script>
-
+-->
 
 ## Reading
 
@@ -177,11 +224,7 @@ To get started, please read the following, which cover the usage and definition 
 
 ## Videos
 
-Videos on the basic of _Functions_!
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R8SjM4DKK80" frameborder="0" allowfullscreen></iframe></div>
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C1PZh_ea-7I" frameborder="0" allowfullscreen></iframe></div>
 
 
 ## Interactive JS Console
