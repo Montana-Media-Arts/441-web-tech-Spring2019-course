@@ -1,6 +1,6 @@
 ---
 title: Higher Order Functions
-module: 0
+module: 4
 jotted: false
 ---
 
