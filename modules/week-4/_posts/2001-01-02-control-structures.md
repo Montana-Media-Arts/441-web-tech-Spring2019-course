@@ -256,7 +256,7 @@ Now, run this new page with the following script.  What do you see?  Is it what 
 With else if statements, once one of them is true, all the others are ignored.  That is a good stuff!  That means, it only evaluates what is needed and no more.  And it keeps our code clean.  So, are there other control statements like this?  Yup!  It's call the **switch** statement.
 
 ## Switch statements
-This control statement works like else ifs.  They keep out code clean, but they only work with whole numbers (i.e. 1,4,9, but not 1.232 or 3.393) or the single letters. Also, we can only check for equality (==).  We cannot do relational operators like <, >, <= or >=.
+This control statement works like else ifs.  They keep out code clean, but they only work with whole numbers (i.e. 1,4,9, but not 1.232 or 3.393) or the single letters or strings. Also, we can only check for equality (===).  We cannot do relational operators like <, >, <= or >=.
 
 For example, we can do this:
 
