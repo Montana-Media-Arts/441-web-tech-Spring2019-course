@@ -10,7 +10,7 @@ The nice thing about most languages and JavaScript is no different is that there
 
 The Math class is a class built by someone else and is automatically available to us by just making a call to math.  What does this look like?
 
-##Random
+## Random
 
 Random is one of the most common math functions used because coming up with our own random numbers is hard to do.  So, what does it look like?
 
@@ -112,7 +112,7 @@ Oh yes and one more thing..  notice there is a **return** in the method getARand
 
 What other methods are there?
 
-##Math.abs
+## Math.abs
 
 This is a good one to have in your back pocket as it gives you the absolute value between two numbers.  That means if you substract two numbers and take the absolute value, it will always be positive.
 
@@ -141,7 +141,7 @@ So, you can see even though 5-10 is actually -5, because of the absolute value, 
 
 Are there any others that are useful?  How about Math.PI?
 
-##Math.PI
+## Math.PI
 
 What is PI?  PI is a special number.  As stated by piday.org - "Pi (π) is the ratio of a circle’s circumference to its diameter. Pi is a constant number, meaning that for all circles of any size, Pi will be the same."
 
@@ -170,7 +170,7 @@ It is handy when trying to figure out which direction players should turn in gam
 
 Another handy method is the round method.
 
-##Math.round
+## Math.round
 
 Math.round performs rounding for you so you don't have to create an if statement that says if a number is 5 or above, round up, otherwise, round down.  Here is an example:
 
@@ -198,7 +198,7 @@ In this case, it will return 4, and if you were to change the .9 to something be
 
 Another method that you might need is Math.pow.
 
-##Math.pow
+## Math.pow
 
 So, the power function is quite useful because there isn't an operator for it in basic math.  In your prior math classes (I am not sure how long it's been), you probably saw something like this ^ for power.  It was maybe on your calculator.  However, in programming that means something completely different so, you have to use the Math.pow so that you can raise a number to a power.  For example you may have 2 raised to the 3 power which should return 8.
 
@@ -225,7 +225,7 @@ Here's an example:
 
 The last one we will look at for now is the Math.sqrt.
 
-##Math.sqrt
+## Math.sqrt
 
 When we square a number like 2*2, we get 4.  But what about the square root?  In order to do that we would have to do a lot more programming that is necessary so we use the Math.sqrt and that will take the square root of a number and return the value.  For example, Math.sqrt(4) = 2.
 
