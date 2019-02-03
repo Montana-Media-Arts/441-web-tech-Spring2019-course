@@ -10,7 +10,7 @@ Control structures are our decision makers of the programming world.  We use [re
 
 Last week, we discussed control structures in a high level way.  Let's now take a closer look.
 
-##if statements
+## if statements
 
 If we look at them in JavaScript they would look like this
 
@@ -164,7 +164,7 @@ What happened here?  I wanted to make sure I checked not only the temperature, b
 
 Now, you could have also used **'||'** which translates to **OR**.  That means only one of the conditions must be true for the statements in the block to be run.
 
-##else if statements
+## else if statements
 
 Like if statements, we can create else if statements.  These are really cool because it's like having multiple if statements in a row, but they function a little different.  Let's look at a couple of examples:
 
