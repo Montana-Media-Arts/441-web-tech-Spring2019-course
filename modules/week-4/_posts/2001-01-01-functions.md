@@ -222,11 +222,6 @@ To get started, please read the following, which cover the usage and definition 
 - **JavaScript Guide.** MDN web docs. 2018. Web.
     - [_Functions_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
-## Videos
-
-
-
-
 ## Interactive JS Console
 
 While you work on this chapter, you should use the following interactive JS console to test.

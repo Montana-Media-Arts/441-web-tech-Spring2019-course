@@ -24,8 +24,6 @@ If I were to ask you to create a program that were to get a user's name and then
 
 If not, that's okay!  I will show you how.
 
-**video**
-
 First, create a file called GetName.html.
 
 Then, add a textbox into that file.
