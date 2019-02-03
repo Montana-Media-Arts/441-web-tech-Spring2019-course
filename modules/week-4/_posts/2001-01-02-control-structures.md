@@ -162,7 +162,7 @@ Also, keep in mind that you can use your logical operators here too and evaluate
 ```
 What happened here?  I wanted to make sure I checked not only the temperature, but also the wind chill.  In order to do that, I sent the temperature variable into the function as well as the wind chill variable. Then, in the if statement, I create an **&&** which is translated to **AND**.  What that means is that both things must be true in order for the statements in the block to run.  So, in this case, the temperature must be below 40 and the windChill must be below 0 before a message appears telling you to wear a sweatshirt.. (if that's all you wear, you are way tougher than me). 
 
-Now, you could have also used **'||'** which translates to **OR**.  That means only one of the conditions must be true for the statements in the block to be run.
+Now, you could have also used **\|\|** which translates to **OR**.  That means only one of the conditions must be true for the statements in the block to be run.
 
 ## else if statements
 
