@@ -45,6 +45,7 @@ You should see a double.  That is because random returns a number between 0 and 
             // I am defining my method here
             function getARandomNumber()
             {
+                var randNumber = Math.random();
                 document.write(Math.floor(randNumber * 10));
             }
         </script>
