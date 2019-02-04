@@ -111,6 +111,8 @@ If you read through this code, we are getting a number between 5 and 10 because 
 
 Oh yes and one more thing..  notice there is a **return** in the method getARandomNumber.  So, this time, nothing is actually printing in the method, but the number is being returned from the method and then printed later.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2h1crDRLVn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 What other methods are there?
 
 ## Math.abs
@@ -139,6 +141,8 @@ For example:
 ```
 
 So, you can see even though 5-10 is actually -5, because of the absolute value, it returns 5.  This method is really handy when you just need to know the difference between two numbers like when you need to know the distance between two points.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wqFoSl8cDDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Are there any others that are useful?  How about Math.PI?
 
@@ -169,6 +173,8 @@ It is handy when trying to figure out which direction players should turn in gam
 </html>
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hLwKsR7YX-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Another handy method is the round method.
 
 ## Math.round
@@ -197,6 +203,8 @@ Math.round performs rounding for you so you don't have to create an if statement
 
 In this case, it will return 4, and if you were to change the .9 to something below 5, then it will return 3.  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IN8tjxH8cuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Another method that you might need is Math.pow.
 
 ## Math.pow
@@ -224,6 +232,8 @@ Here's an example:
 </html>
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zhBhAzROKN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The last one we will look at for now is the Math.sqrt.
 
 ## Math.sqrt
@@ -250,6 +260,8 @@ When we square a number like 2*2, we get 4.  But what about the square root?  In
 ```
 
 When, you ran this code, what did you get?  Did you get 4?  Good!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YJkL-faZbjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 That's it for this week.  Let's do some more hand-on work and your homework.  As always let me know if you have more questions!
 
