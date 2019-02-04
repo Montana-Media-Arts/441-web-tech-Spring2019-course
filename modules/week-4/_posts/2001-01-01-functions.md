@@ -113,9 +113,13 @@ It will look like this
 </html>
 ```
 
+
+
 The onclick is an event that is automatically connected to the button.  It says, when I click on my button, then call the getName function.  Cool right?!!
 
 That is the most common way in which you can create a function.  There are other ways.  However, we will look at those as time goes on.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A48w8znhujU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The only other thing we are going to examine is parameters.  What does that look like?
 
@@ -141,6 +145,8 @@ The only other thing we are going to examine is parameters.  What does that look
 So, we are sending in the **getName(greeting)** greeting parameter, which means we can send in any message and that will be concatenated to the currentName in the message.
 
 Also, notice the message that is sent into the getName function is surrounded by single quotes **onclick="getName('Nice to meet you');"**  Why is that?  It's because the double quotes start and end the call to the function and so we can't use double quotes again.  However, we can use single quotes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gzbSPipixbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Below is another example
 

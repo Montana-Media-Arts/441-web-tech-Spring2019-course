@@ -40,6 +40,8 @@ If we look at them in JavaScript they would look like this
 
 Did you try it out?  It should print out the message.  What happens if it's above 40?  What about if it's equal to 40?
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gzbSPipixbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The other side of the if, is the else.  Notice, the block inside of the if only executes if it's true.  However, with the else, we can do something if it's false.  Take a look below.
 
 ```html
@@ -71,6 +73,8 @@ The other side of the if, is the else.  Notice, the block inside of the if only 
 ```
 There are a couple things to notice here. In the **else** notice that there are no parentheses.  That's because it's just saying, no matter what if the if fails, then do whatever is in the else block.  Remember a block is anything that is surrounded by **{ }**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agJii1A-ocw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Finally, we can also pass a paramter into our function and then pass that parameter into our if statment.  Take a look below to see what I mean.
 
 ```html
@@ -99,6 +103,8 @@ Finally, we can also pass a paramter into our function and then pass that parame
 </html>
 ```
 Notice that I pass the number 30 into whatToDo and that is stored in temperature in the function.  That variable is then used in the if statement.  Keep in mind, we can create a variable down below and pass that in too.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ilrJ0ZaFnHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```html
 <html>
@@ -129,6 +135,8 @@ Notice that I pass the number 30 into whatToDo and that is stored in temperature
 </html>
 ```
 So, there are many ways in which you can interact with your if statements through functions and use variables.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vouFdyW4Lic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Also, keep in mind that you can use your logical operators here too and evaluate multiple things all at once.  For example:
 
@@ -163,6 +171,8 @@ Also, keep in mind that you can use your logical operators here too and evaluate
 What happened here?  I wanted to make sure I checked not only the temperature, but also the wind chill.  In order to do that, I sent the temperature variable into the function as well as the wind chill variable. Then, in the if statement, I create an **&&** which is translated to **AND**.  What that means is that both things must be true in order for the statements in the block to run.  So, in this case, the temperature must be below 40 and the windChill must be below 0 before a message appears telling you to wear a sweatshirt.. (if that's all you wear, you are way tougher than me). 
 
 Now, you could have also used **\|\|** which translates to **OR**.  That means only one of the conditions must be true for the statements in the block to be run.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uyUmWMdfzwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## else if statements
 
@@ -255,6 +265,9 @@ Now, run this new page with the following script.  What do you see?  Is it what 
 
 With else if statements, once one of them is true, all the others are ignored.  That is a good stuff!  That means, it only evaluates what is needed and no more.  And it keeps our code clean.  So, are there other control statements like this?  Yup!  It's call the **switch** statement.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LbvWL_z-sjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Switch statements
 This control statement works like else ifs.  They keep out code clean, but they only work with whole numbers (i.e. 1,4,9, but not 1.232 or 3.393) or the single letters or strings. Also, we can only check for equality (===).  We cannot do relational operators like <, >, <= or >=.
 
@@ -299,6 +312,8 @@ For example, we can do this:
 This time to test, we have to put in the actual number that matches, like 0, 10, 20, etc.  Then, you should see messages according to the number.  If they don't match, you shouldn't see anything.
 
 What is so special about switch statements?  Well, did you notice the **break**  That is new right?  Well, that is what makes these work like else if's.  If the break statement is not there, the program will continue to evaluate everything to true, which is not what we want!  So, we use the break to make sure we get out of the switch.  Try this out and change the numbers to see what happens.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIePAo1S394" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Next up, looping!  
 
