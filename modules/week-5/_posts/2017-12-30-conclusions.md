@@ -6,9 +6,4 @@ jotted: false
 
 # Weekly Conclusions
 
-
-Classes and Objects, as well as all of the techniques around Object Oriented Programming (OOP) are incredibly powerful. They will allow you to write concise code, that limits your potential for large unwieldily bugs and errors.
-
-Along with new knowledge about how you can track down and deal with Bugs and Errors, this week provides important information.
-
-Next week we will wrap up our exploration of basic CS concepts. 
+This week, we covered some more advanced topics including handing web state with query strings and cookies and arrays.  We also discussed debugging which is important for all developers.  Next week, we will look at more array concepts along with Object Oriented Programming, and JSON objects.  This will give us some background on where we want to go and how to really increase our reusability.  As always, please let me know if you have any questions!
