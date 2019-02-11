@@ -59,6 +59,9 @@ The first page uses the **getElementById** to get the information and then pass 
 
 Then in the second page, you can get the information by using the **location.search** along with the **URLSearchParams** class (don't worry about that yet.. we will talk about that at greater length later).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6bsF1D3i_vY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Another option to access the query string is through the **form** tag. Let's look at it now.
 
 This technique also needs two pages.  The first page looks like this:
@@ -102,3 +105,5 @@ The second page look like this
 ```
 
 This time, we have just a form with no JavaScript.  We use the **action** and **method** attribute of the form to send information to the second page.  Another thing to notice is that the text box uses the **name** attribute instead of the **id**.  Finally, notice that the **getInformation** function is called in the **onload** event of the body.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z2O1wLnNC-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -55,6 +55,8 @@ Let's look at an example.
 
 This is a cornucopia of syntax errors.  You should run this. How many appear?  I only see two. Why is that?  It tries to run as best as it can and it shows you the first two (the function is not defined and the string error).  Once you fix those, you should see more.  Now, things get trickier because they aren't quite as clear.  So, we have to go line by line and look for the basics.  Are we missing any semicolons, parentheses, curly braces.  We will look at specific techniques in a second, but let's examine the second kind of error, the Run-Time Error
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GeUV_JkrHWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 This type of error is something is syntactically correct, but when the program runs, it gives an error.  This might be calling a function and sending it something that it doesn't expect and it giving error.  Here is an example.
 
 ```html
@@ -81,6 +83,8 @@ This type of error is something is syntactically correct, but when the program r
 ```
 
 What did you see when you ran it?  Was the web page blank?  Was the console blank?  Gads!  That's not easy to figure out.  So, we have to debug.  We will need debugging tools!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B95O8zQj9UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The last type of error is the logical error. If you thought the run time errors were nasty, logical errors are even worse and much harder to find because everything looks like it's working correctly, but it's just giving the wrong answer.  What?  It's like having a function saying add two numbers together it returns the product.  Simple example, but that's a problem if you test is with 2 and 2.  It actually gives the right answer in that scenario, so if you don't test further, you may never see the problem.  Here's another example.
 
@@ -110,6 +114,8 @@ The last type of error is the logical error. If you thought the run time errors 
 ```
 Before, you run the code, what do you think the answer is going to be?  It should be 17 if you take 3 + 5 + 0 + 9.  However, when I ran it, I got 809.  It's still a number so to the casual observer, this could be correct.  However, we know that because the + sign can either add or concatenate, it was doing both here. It added the first two numbers together and then concatenated the last two the sum of the first two numbers.  Tricky!  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SfvOAlMhnB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So, how do we find these nefarious creatures?  Well that's where we employ some tools.
 
 1. Look at debugging tools.  This a tricky one because with JavaScript, we don't really have a debugger.   In a lot of other programming languages, we can use what's called a debugger to help us find out where things have gone wrong.  However, in JavaScript, as you have probably noticed, it "silently" fails for you.  So, that's where the console comes in.  It will give you error message and usually a line where something has gone wrong. This is great.  If you click on the link next to the line, it should show you which line is causing the error. 
@@ -123,3 +129,5 @@ So, how do we find these nefarious creatures?  Well that's where we employ some 
 5. Ask for help.  Don't be afraid to ask for help in forums, groups, classmates, colleagues, me (at the moment, but even after the class! --- I hope that's a value add).  You don't have to know everything about everything off the top of your head.  I don't and I certainly have asked for help before.  It's good to ask for help. 
 
 So, that's my story about debugging. I hope this has been helpful and I hope you are able to employ some of these techniques to make your programming life easier and more enjoyable.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kFRJeELnsPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
