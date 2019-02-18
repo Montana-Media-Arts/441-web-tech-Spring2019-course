@@ -8,7 +8,7 @@ jotted: false
 
 Hopefully by now, you have found arrays to be quite handy.  Even in your memory game with only 10 values in your array, it would be quite cumbersome if you had 5 variables for your images, another 10 variables for your actual images, etc.  Remember, I could ask you to change your program so that it had like 30 images (15 actual images times 2).  Yikes.. so many variables if you don't use arrays.
 
-So, what else can we do with arrays?  Well, last week, we look at the push function which allowed us to add items to our array.  It's syntax was like this:
+So, what else can we do with arrays?  Well, last week, we look at the **push** function which allowed us to add items to our array.  It's syntax was like this:
 
 ```html
 <html>
@@ -32,7 +32,9 @@ So, what else can we do with arrays?  Well, last week, we look at the push funct
 </html>
 ```
 
-The opposite of this is pop.  Names are added to the stack in a last in first out model.  So, think of it like a deck of cards or stack of plates.  As you push onto the stack, each item is placed on top of the stack.  Then, if you call the pop function, the last item that was added to the stack, is removed Here is the syntax which shows how it works:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c0wjad5kNHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The opposite of this is **pop**.  Names are added to the stack in a last in first out model.  So, think of it like a deck of cards or stack of plates.  As you push onto the stack, each item is placed on top of the stack.  Then, if you call the pop function, the last item that was added to the stack, is removed Here is the syntax which shows how it works:
 
 ```html
 <html>
@@ -77,10 +79,11 @@ The opposite of this is pop.  Names are added to the stack in a last in first ou
     </body>
 </html>
 ```
-Keep in mind that the whatsLeftInArray prints out all the elements except for Item4 because it was popped off.
+Keep in mind that the **whatsLeftInArray** prints out all the elements except for **Item4** because it was popped off.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-N__3KdXMrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Keep in mind that this is different from deleting an item from an array.  If you delete an item, it leaves that index empty, but still part of the array.  For example:
+Keep in mind that this is different from **deleting** an item from an array.  If you delete an item, it leaves that index empty, but still part of the array.  For example:
 
 ```html
 <html>
@@ -117,7 +120,9 @@ Keep in mind that this is different from deleting an item from an array.  If you
 </html>
 ```
 
-Another important aspect of arrays is that you can add not only strings, numbers, and objects, but also functions.  This means we can add functionality to an array.  That's crazy!  Here is the syntax for it:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uwINAXU66Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Another important aspect of arrays is that you can add not only strings, numbers, and objects, but also **functions**.  This means we can add functionality to an array.  That's crazy!  Here is the syntax for it:
 
 ```html
 <html>
@@ -147,7 +152,9 @@ Another important aspect of arrays is that you can add not only strings, numbers
 </html>
 ```
 
-So, what if we have two arrays and we want to put them together?  That is where the concat function comes in.  You already know the concatenation term from strings.  This is no different, it just goes through and combines two (or more) arrays together.  Here is the syntax:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mC4obhKrrPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+So, what if we have two arrays and we want to put them together?  That is where the concat function comes in.  You already know the **concatenation** term from strings.  This is no different, it just goes through and combines two (or more) arrays together.  Here is the syntax:
 
 ```html
 <html>
@@ -171,6 +178,8 @@ So, what if we have two arrays and we want to put them together?  That is where 
     </body>
 </html>
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5uTy3_W-d5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are many more functions that may help you along the way.  I recommend taking a look at these two links:
 

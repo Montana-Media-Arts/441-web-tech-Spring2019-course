@@ -6,7 +6,7 @@ jotted: false
 
 # Local Storage
 
-So, what is local storage? You have used the query string and cookies, but what other mechanisms are there for storing information?  One is local storage.  It allows us to store information on a client without having to have a domain (like a cookie does) and you don't have to worry about having information in the query string in clear text.
+So, what is **local storage**? You have used the query string and cookies, but what other mechanisms are there for storing information?  One is local storage.  It allows us to store information on a client without having to have a domain (like a cookie does) and you don't have to worry about having information in the query string in clear text.
 
 So, how does it work?  Here is the syntax of the two files required:
 
@@ -69,3 +69,5 @@ Whereas Page 2 looks like this:
 ```
 
 You may notice that I need to first change the JSON object to a string before I stored it in local storage.  Then, when I got it out of local storage since it's formatted correctly, I could parse it back into a JSON object. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X-3_05yBklQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
