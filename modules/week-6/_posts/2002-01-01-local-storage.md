@@ -68,6 +68,8 @@ Whereas Page 2 looks like this:
 </html>
 ```
 
-You may notice that I need to first change the JSON object to a string before I stored it in local storage.  Then, when I got it out of local storage since it's formatted correctly, I could parse it back into a JSON object. 
+You may notice that I needed to first change the JSON object to a string before I stored it in local storage.  Then, when I got it out of local storage since it's formatted correctly, I parsed it back into a JSON object.
+
+Again, the **stringify** and **parse** functions come from the JSON class.  Cool huh?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X-3_05yBklQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
