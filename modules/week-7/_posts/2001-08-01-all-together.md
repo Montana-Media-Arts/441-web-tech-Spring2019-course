@@ -208,7 +208,8 @@ Look how simple and clean that code below looks! It is so easy to read and under
 			timeToTravel()
 			{
 				let time = this.distance/this.speed;
-				return "It will take approximately " + Math.round(time) + " hours to cover " + this.distance + " miles.";
+                return "It will take approximately " + 
+                Math.round(time) + " hours to cover " + this.distance + " miles.";
 			}
 			toString() {
 				let str;
