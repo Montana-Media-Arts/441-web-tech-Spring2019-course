@@ -46,6 +46,8 @@ And we can create more people from the same class.  The nice part is that we don
 
 We will dig into Classes and Object in more detail in the next section.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KpR0JqDM7l4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Property
 
 An object or class **property** or also known as **attributes** is a piece of data used to describe the resulting object.
@@ -54,9 +56,13 @@ In our previous example, the properies were Eye color, Number of Legs, Number of
 
 When we created the object, they all had values like Blue eyes, 2 legs, etc.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ri_LeIl5YnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Method
 
 An object or class **method** is a function.  You can think of it as "It does stuff".  So, any function you create, which you have done already, just does stuff for you.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AdjzvrJgjbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Instantiation (aka. `new`)
 
@@ -64,9 +70,13 @@ When we create a new _object_ from a _class_, we are **instantiating** the _new_
 
 As we will see throughout this week's content, to create a new _instance_ of a class, we will use the JavaScript keyword `new`.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ai-7VOugRNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## this
 
 A potentially confusing idea is the reference to "specific instances" of an object. When referring to a specific instance of an object, or, when referring to an object's own instance (from within the object) we will use the term **this**.
 
 The `this` keyword in JavaScript is used throughout the language, and can be very confusing (hence why it has remained anonymous until now). Before we dive deep into `this`, just try and accept that `this` refers to a specific instance of an object from within that object itself.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EhG17j2FmwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

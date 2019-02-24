@@ -18,6 +18,9 @@ let hairColor = "green";
 let myPerson = new Person( eyeColor, hairColor );
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gGc6NUT1Mnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 # Accessing an Objects Properties
 
 To access an objects properties, we will use the same "_dot notation_" as we learned about with objects data structures.
@@ -34,6 +37,8 @@ myPerson.hairColor = "purple"; // ← sets the value of the property to purple
 
 **NOTE:** Typically, when using classes and OOP paradigms, setting object properties with this notation is considered poor style. This is because it can lead to errors in code. More on this will be discussed later.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r4mjFdaet5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Calling Object Methods
 
 _dot notation_ is also used to execute object methods. However, parenthesis are always added to the method name, regardless of whether there are input parameters being passed to the method or not.
@@ -43,3 +48,5 @@ myPerson.walk(); // ← executes myPerson's method, 'walk'.
 
 myPerson.timeToTravel(distance); // ← execute the method and pass it one input parameter value.
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_wACy_hEGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
