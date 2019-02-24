@@ -6,7 +6,7 @@ jotted: false
 
 # Resources on OOP
 
-Now that you have had an introduction to some of the ideas and larger implementations of OOP in JavaScript, here is some more reading with even more detailed explanations.
+Now that you have had an introduction to some of the ideas and larger implementations of OOP in JavaScript, here is some more reading with even more detailed explanations. **Thank you Dr. Musick for these!**
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
     - [_Chapter 6; The Secret Life of Objects_](https://eloquentjavascript.net/3rd_edition/06_object.html)
