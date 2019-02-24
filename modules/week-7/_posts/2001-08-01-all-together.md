@@ -190,44 +190,44 @@ Look how simple and clean that code below looks! It is so easy to read and under
     <title>OOP</title>
     <script>
         class Person {
-			constructor( eyeColor, hairColor, speed, distance ) {
-				this.eyeColor = eyeColor;
-				this.hairColor = hairColor;
-				this.speed = speed;
-				this.distance = distance;
-			}
-			get eColor() {
-				return this.eyeColor;
-			}
-			set eColor(eyeColor) {
-				this.eyeColor = eyeColor;
-			}
-			walk() {
-				return 'I am walking across the frozen tundra at ' + this.speed + ' miles per hour';
-			}
-			timeToTravel()
-			{
-				let time = this.distance/this.speed;
+            constructor( eyeColor, hairColor, speed, distance ) {
+                this.eyeColor = eyeColor;
+                this.hairColor = hairColor;
+                this.speed = speed;
+                this.distance = distance;
+            }
+            get eColor() {
+                return this.eyeColor;
+            }
+            set eColor(eyeColor) {
+                this.eyeColor = eyeColor;
+            }
+            walk() {
+                return 'I am walking across the frozen tundra at ' + this.speed + ' miles per hour';
+            }
+            timeToTravel()
+            {
+                let time = this.distance/this.speed;
                 return "It will take approximately " + 
                 Math.round(time) + " hours to cover " + this.distance + " miles.";
-			}
-			toString() {
-				let str;
-				str = 'This person has ' + 
-				this.eyeColor + ' eyes, has '
-				+ this.hairColor +
-				' hair, and is currently moving at ' + 
-				this.speed + ' miles per hour.';
-				return str;
-			}
-		}
+            }
+            toString() {
+                let str;
+                str = 'This person has ' + 
+                this.eyeColor + ' eyes, has '
+                + this.hairColor +
+                ' hair, and is currently moving at ' + 
+                this.speed + ' miles per hour.';
+                return str;
+            }
+        }
 
         function createAndShow()
         {
-		        let myPerson = new Person( 'blue', 'brown',3,10);
-                document.getElementById("myWalk").innerHTML = myPerson.walk();
-				document.getElementById("myTimeToTravel").innerHTML = myPerson.timeToTravel();
-				document.getElementById("myPerson").innerHTML = myPerson.toString();    
+            let myPerson = new Person( 'blue', 'brown',3,10);
+            document.getElementById("myWalk").innerHTML = myPerson.walk();
+            document.getElementById("myTimeToTravel").innerHTML = myPerson.timeToTravel();
+            document.getElementById("myPerson").innerHTML = myPerson.toString();    
         }
     </script>
 </head>
@@ -236,8 +236,7 @@ Look how simple and clean that code below looks! It is so easy to read and under
 	<div id="myTimeToTravel"></div>
     <div id="myPerson"></div>
     <script>
-        createAndShow();
-        
+        createAndShow();   
     </script>
 </body>
 </html>
