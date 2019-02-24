@@ -41,5 +41,5 @@ _dot notation_ is also used to execute object methods. However, parenthesis are 
 ```js
 myPerson.walk(); // ← executes myPerson's method, 'walk'.
 
-myPerson.averageSpeed(distance, timeToComplete ); // ← execute the method and pass it two input parameter values.
+myPerson.timeToTravel(distance); // ← execute the method and pass it one input parameter value.
 ```
