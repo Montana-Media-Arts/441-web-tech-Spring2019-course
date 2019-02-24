@@ -186,7 +186,6 @@ Look how simple and clean that code below looks! It is so easy to read and under
 
 ```html
 <html>
-
 <head>
     <title>OOP</title>
     <script>
@@ -241,6 +240,4 @@ Look how simple and clean that code below looks! It is so easy to read and under
     </script>
 </body>
 </html>
-
-
 ```
