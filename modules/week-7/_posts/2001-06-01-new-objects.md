@@ -17,7 +17,7 @@ let eyeColor = "blue";
 let hairColor = "green";
 let myPerson = new Person( eyeColor, hairColor );
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gGc6NUT1Mnc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -48,5 +48,5 @@ myPerson.walk(); // ← executes myPerson's method, 'walk'.
 
 myPerson.timeToTravel(distance); // ← execute the method and pass it one input parameter value.
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q_wACy_hEGI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

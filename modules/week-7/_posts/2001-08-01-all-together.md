@@ -77,7 +77,7 @@ toString() {
     return str;
 }
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZsP8v5D1ur4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Person walking
@@ -101,7 +101,7 @@ timeToTravel()
     return time;
 }
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G8zPtAv139U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -119,7 +119,7 @@ An example would be something like this:
         this.eyeColor = eyeColor;
     }
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jxKCJP51Rl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Altogether
@@ -247,5 +247,5 @@ Look how simple and clean that code below looks! It is so easy to read and under
 </body>
 </html>
 ```
-
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hf-z7przdp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
