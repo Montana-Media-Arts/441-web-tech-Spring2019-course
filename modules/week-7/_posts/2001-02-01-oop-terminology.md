@@ -13,8 +13,8 @@ When it comes to OOP, there are two fundamental aspects.  They are Classes and O
 
 Let's start again with **what**.  What are classes and and what are objects?
 
-1. Classes - They are the blueprints or generic templates
-2. Objects - They are the specific instances of those blueprints/templates.
+1. **Classes** - They are the blueprints or generic templates
+2. **Objects** - They are the specific instances of those blueprints/templates.
 
 Now that we know, the what, let's answer the better question **why**.
 
@@ -38,7 +38,7 @@ That is our class.  What is an object then?  If that is the generic template, th
 1. Blue eyes
 2. 2 legs
 3. 2 arms
-4. Brown ----------
+4. Brown Hair
 5. 5 foot 10 inches
 6. 175 lbs
 

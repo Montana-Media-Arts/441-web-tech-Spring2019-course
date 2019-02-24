@@ -27,7 +27,7 @@ As an example, if we were creating a Person, we may want to specify properties s
 
 You will learn more specifically how to do this on the next page.
 
-## Pseudo Code
+## Constructor Example
 
 As mentioned, the _constructor method_ should be the first method in a _class definition_.
 
