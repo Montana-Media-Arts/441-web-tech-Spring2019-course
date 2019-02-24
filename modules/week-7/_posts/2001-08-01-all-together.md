@@ -131,7 +131,7 @@ class Person {
         this.distance = distance;
     }
     get eColor() {
-				return this.eyeColor;
+		return this.eyeColor;
 			}
     set eColor(eyeColor) {
         this.eyeColor = eyeColor;
