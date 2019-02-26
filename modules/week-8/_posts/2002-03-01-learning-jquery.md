@@ -6,27 +6,92 @@ jotted: false
 
 # Learning jQuery
 
-Since jQuery is so popular, there are many tutorials for learning it. For this week, you are to utilize at least one of the following tutorials to learn how to use jQuery.
+Previously, we looked at the basics of accessing items through the DOM. What other functions are available to us?  We looked at toggle?  What other methods are there?
 
-1. [w3school's "jQuery Tutorials"](https://www.w3schools.com/jquery/default.asp)
-    - Read all parts in each of the following;
-        - ["jQuery Tutorial"](https://www.w3schools.com/jquery/default.asp)
-        - ["jQuery Effects"](https://www.w3schools.com/jquery/jquery_hide_show.asp)
-        - ["jQuery HTML"](https://www.w3schools.com/jquery/jquery_dom_get.asp)
-        - ["jQuery Traversing"](https://www.w3schools.com/jquery/jquery_traversing.asp)
-2. ["Learn jQuery" from jQuery.com](http://learn.jquery.com)
-    - Read all parts in each of the following;
-        - ["About jQuery"](http://learn.jquery.com/about-jquery/)
-        - ["How jQuery Works"](http://learn.jquery.com/about-jquery/how-jquery-works/)
-        - ["jQuery Core"](http://learn.jquery.com/using-jquery-core/)
-        - ["jQuery Events"](http://learn.jquery.com/events/)
-        - ["jQuery Effects"](http://learn.jquery.com/effects/)
-3. [Khan Academy's "HTML/JS: Making webpages interactive with jQuery"](https://www.khanacademy.org/computing/computer-programming/html-js-jquery)
-    - Read all parts in each of the following;
-        - [Welcome to jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-intro/v/jquery-meet-the-inventor)
-        - [DOM access with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-dom-access/p/finding-elements-with-jquery)
-        - [DOM modification with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/dom-modification-with-jquery/p/modifying-elements-with-jquery)
-        - [jQuery techniques](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-tools-techniques/p/jquery-collections-vs-dom-nodes)
-        - [DOM events with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/dom-events-with-jquery/p/adding-event-listeners-with-jquery)
-        - [Form processing with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/form-processing-jquery/a/process-forms-with-jquery-intro)
-        - [DOM animation & effects with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/dom-animation-with-jquery/p/animating-visibility-with-jquery)
+Methods:
+
+1. fadeIn()
+2. fadeOut()
+3. fadeToggle()
+4. fadeTo()
+5. slideDown()
+6. slideUp()
+7. slideToggle()
+8. animate()
+
+Then, we will look at some Callback functions and Chaining.
+
+Yes, more terminology, but all good stuff!
+
+So, what do they look like?
+
+Here is an example:
+
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(".myGreatClass").fadeOut();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p class="myGreatClass" style="background-color:red">This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+Now, try some of these other methods.  In the video below, I will go through a number of them.
+
+
+What about animate?  It is a little different than the other methods listed above.  Let's look at it closer.
+
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(".myGreatClass").animate({left: '250px'});
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p class="myGreatClass" style="background-color:red;position:absolute; top: 100px; left: 25px">This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+Again, this just shows that we are updating the style of this particular tag, but in a cooler way. 

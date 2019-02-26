@@ -37,3 +37,171 @@ $(function(){
     // your jQuery and DOM related code here
 });
 ```
+
+Once, you have a JQuery script in place, you can perform different actions such as manipulate the DOM.
+
+One example is changing all the tags at once.  You can use selector **$** with the tag in between the parentheses to change all elements.  One example might be like this:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p>This is a paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in JQuery, so you will see this over and over.
+
+We can also find something by id by using the **$** and then the **#** aka hashtag - the cool kids use this.  This should look familiar.  From CSS right?
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#infoid").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p>This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+This time only the paragraph with the id **infoid** will disappear while the other **p** tag remains visible.
+
+You can also find items by their class name and you guessed it, you use the dot **.** to find it.  For example, it might look like this:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(".myGreatClass").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p class="myGreatClass">This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+What if we want to find the item that was just clicked? Well, you are in luck!  You can use the **this** keyword and it will find the item that was just accessed.  For example, it will look like this:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(this).hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p class="myGreatClass">This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+So, what is really happening behind the scenes?  Does it really remove the item?  I hope not! It's just setting its style to display:none.  What that means is that we can use another method called toggle and that will make items appear and disappear each time the button is clicked.  For example, you might see something like this:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(".myGreatClass").toggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <p id="infoid">This is a paragraph.</p>
+    <p class="myGreatClass">This is the second paragraph.</p>
+    <button>Click me to hide paragraphs</button>
+    <br>
+</body>
+
+</html>
+```
+
+So, where do we go from here?  Let's go to the next page and find out!
