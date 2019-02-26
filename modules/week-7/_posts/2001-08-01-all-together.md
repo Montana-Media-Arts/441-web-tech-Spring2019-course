@@ -22,9 +22,9 @@ class Person {
 
 ## Consider Object Properties
 
-So, we should also consider what a person can do.  That is what we did in the previous section. They could walk and get the averageSpeed.
+So, we should also consider what a person can do.  That is what we did in the previous section. They could walk and get the timeToTravel.
 
-For our example, let's have our main properties eyeColor and hairColor and then the methods or functions be walk and averageSpeed.
+For our example, let's have our main properties eyeColor and hairColor and then the methods or functions be walk and timeToTravel.
 
 - eye color that is brown
 - hair color that is blonde
@@ -34,7 +34,7 @@ The person will also:
 - walk
 - get the time to travel a certain distance
 
-These spec's can help us determine the properties the person will need. We can say that the person will likely need;
+These specifications can help us determine the properties the person will need. We can say that the person will likely need;
 
 - a eye color property
 - a hair color property
@@ -107,7 +107,7 @@ timeToTravel()
 
 #### Getters and Setters
 
-Remember when we were talking about changing the values of our properties directly and how that wasn't the best idea.  We want to use getters and setters -- these are special methods -- to make those changes for us.  It helps keep better control over who and when properties are changed. This is actually called **encapsulation**.  It just means we want the class to make changes to our properties, not the outside world.  So, we give access through getters and setters.
+Remember when we were talking about changing the values of our properties directly and how that wasn't the best idea?  We want to use getters and setters -- these are special methods -- to make those changes for us.  It helps keep better control over who and when properties are changed. This is actually called **encapsulation**.  It just means we want the class to make changes to our properties, not the outside world.  So, we give access through getters and setters.
 
 An example would be something like this:
 
@@ -188,7 +188,7 @@ myPerson = new Person( 'blue', 'brown',3,10);
 Finally, we can use our Person object.
 
 
-Look how simple and clean that code below looks! It is so easy to read and understand. By abstracting the Person into a class, we can create a person object, that we call simple instructions on. Each one makes sense and is readable!
+Look how simple and clean that code below looks! It is so easy to read and understand. By abstracting the Person into a class, we can create a person object, that we can call the methods from each of those objects. Each one makes sense and is readable!
 
 ```html
 <html>

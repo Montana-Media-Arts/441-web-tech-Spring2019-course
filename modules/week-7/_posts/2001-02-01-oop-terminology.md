@@ -9,7 +9,7 @@ jotted: false
 
 Let me start by saying, there are a lot of terms.  Have you gathered that yet?  In programming, just like in your other classes, there are a lot of terms that we have to know in order to be successful.  I am one hundred percent sure, you all could start talking about some graphic design terms and I would be fairly lost.  However, once we learn the terms, then the subject matter becomes much less scary.
 
-When it comes to OOP, there are two fundamental aspects.  They are Classes and Objects.  If you are saying to yourself, whoa!  What? Even after last week, never fear.  We are going to break things down into a digestable way.
+When it comes to OOP, there are two fundamental aspects.  They are Classes and Objects. 
 
 Let's start again with **what**.  What are classes and and what are objects?
 
@@ -33,7 +33,7 @@ Let's take a person for an example.  What do all people have?
 5. Height
 6. Weight
 
-That is our class.  What is an object then?  If that is the generic template, then a specific instance or object is:
+That is our class.  If what I specified above is the generic template, then a specific instance or object is:
 
 1. Blue eyes
 2. 2 legs
@@ -50,7 +50,7 @@ We will dig into Classes and Object in more detail in the next section.
 
 ## Property
 
-An object or class **property** or also known as **attributes** is a piece of data used to describe the resulting object.
+An object or class **property** also known as an **attribute** is a piece of data used to describe the resulting object.
 
 In our previous example, the properies were Eye color, Number of Legs, Number of Arms, Hair Color, Height, Weight.  All of these things described our person.
 

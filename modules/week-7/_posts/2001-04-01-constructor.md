@@ -8,7 +8,7 @@ jotted: false
 
 In every class definition written, there should be at least one method; that is the `constructor` method. Furthermore, typically this should be the first method defined. It doesn't really have to be, but by convention and for readability, it is usually the first thing in the class.
 
-The constructor method **is always** called by JavaScript when creating a new object from a class. Therefore you **must** have a constructor method.  What is the constructor you say?  Well, think of the word construct.  What does that mean?  It means to build or construct.. ha ha! So, what the constructor is doing is building the object from the class.  Cool huh?
+The constructor method **is always** called by JavaScript when creating a new object from a class. Therefore, you **must** have a constructor method.  What is the constructor you say?  Well, think of the word construct.  What does that mean?  It means to build or construct.. ha ha! So, what the constructor is doing is building the object from the class.  Cool huh?
 
 ## The Purpose of the Constructor Method
 
@@ -18,7 +18,7 @@ JavaScript uses the **constructor** to build new objects of a class type. Keep i
 
 The constructor method should be used to setup or _initialize_ an objects _properties_.
 
-As an example, if we were creating a Person, we may want to specify properties such as;
+As an example, if we were creating a Person, we may want to specify properties such as:
 
 - `eyeColor`
 - `numberOfLegs`

@@ -6,7 +6,7 @@ jotted: false
 
 # Creating Objects from Classes
 
-A lot of discussion has occurred about classes and objects, yet you still do not know how to create an object from a class definition!
+A lot of discussion has occurred about classes and objects, yet you still do not know how to formally create an object from your class definition!
 
 To create a new object "of class type _X_", you need to call the `new` keyword, followed by the name of the class, including any constructor input parameters within parentheses trailing the class name. This can then be assigned to a variable for later reference.  Remember, we did this with the Array class.  It had the parentheses, but no parameters.
 
