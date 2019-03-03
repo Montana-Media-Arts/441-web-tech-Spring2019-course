@@ -4,11 +4,13 @@ module: 8
 jotted: false
 ---
 
-* Callbacks and Chaining
+
+# Callbacks and Chaining
 
 What are these?  These extend our JQuery functionality.  They are really helpful and will reduce code required to accomplish the same task.
 
-** Callbacks
+## Callbacks
+
 With each JQuery method, you can also add a callback function.  What is that?  A callback 
 function is a function that is  called when the first function has completed.  This look at an example.
 
@@ -46,7 +48,7 @@ function is a function that is  called when the first function has completed.  T
 
 So, what just happened?  The paragraph element fades out slowly when the button is clicked.  Then, after the paragraph fades away, then the paragraph with the id **infoid** will toggle.  Keep in mind, it doesn't have to be another method, it can anything you want in there.
 
-** Chaining
+## Chaining
 
 So, what is chaining?  This allows us to call multiple methods and have them apply to the same element.  One example might look like this:
 
