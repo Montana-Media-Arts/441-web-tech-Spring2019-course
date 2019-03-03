@@ -20,6 +20,8 @@ This will return a jQuery object containing a reference to the all of the matchi
 
 As you will learn it is from this object that most of your work will occur for jQuery.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8_o6b0wUHIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Document Ready
 
 Another common thing with jQuery is the encouragement that developers use a "document ready" function. This function should wrap any other statements or functions that will effect the DOM. The "document ready" function only executes _after_ the web page and DOM are loaded and ready for manipulation, but before things like images may fully be loaded. You should also get in practice of doing this.
@@ -37,6 +39,8 @@ $(function(){
     // your jQuery and DOM related code here
 });
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zOy5hf8GvXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once, you have a JQuery script in place, you can perform different actions such as manipulate the DOM.
 
@@ -74,6 +78,8 @@ One example is changing all the tags at once.  You can use selector **$** with t
 
 Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in JQuery, so you will see this over and over.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_imDTAXNC4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 We can also find something by id by using the **$** and then the **#** aka hashtag - the cool kids use this.  This should look familiar.  From CSS right?
 
 ```html
@@ -108,7 +114,9 @@ We can also find something by id by using the **$** and then the **#** aka hasht
 
 This time only the paragraph with the id **infoid** will disappear while the other **p** tag remains visible.
 
-You can also find items by their class name and you guessed it, you use the dot **.** to find it.  For example, it might look like this:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wd5AHOC1Z6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+You can also find items by their class name and you guessed it, you use the dot **dot** to find it.  For example, it might look like this:
 
 ```html
 <!DOCTYPE html>
@@ -139,6 +147,8 @@ You can also find items by their class name and you guessed it, you use the dot 
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BPDwcA6RKeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 What if we want to find the item that was just clicked? Well, you are in luck!  You can use the **this** keyword and it will find the item that was just accessed.  For example, it will look like this:
 
@@ -171,6 +181,8 @@ What if we want to find the item that was just clicked? Well, you are in luck!  
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1CRjAS0CF1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 So, what is really happening behind the scenes?  Does it really remove the item?  I hope not! It's just setting its style to display:none.  What that means is that we can use another method called toggle and that will make items appear and disappear each time the button is clicked.  For example, you might see something like this:
 
@@ -203,5 +215,6 @@ So, what is really happening behind the scenes?  Does it really remove the item?
 
 </html>
 ```
-
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GyYDWOJnncg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 So, where do we go from here?  Let's go to the next page and find out!

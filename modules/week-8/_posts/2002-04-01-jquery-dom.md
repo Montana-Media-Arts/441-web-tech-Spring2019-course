@@ -45,6 +45,8 @@ Let's see these in action.
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OVwOulkRlqI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This code should return just the inner text of the paragraph tag.  However, using the **html** method, we should get everything including the bold tags **<b>**.
 
@@ -75,6 +77,8 @@ This code should return just the inner text of the paragraph tag.  However, usin
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evCDKmkQSYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Finally, if we want to get something out of a textfield, we can use the val() method.
 
@@ -109,6 +113,8 @@ Finally, if we want to get something out of a textfield, we can use the val() me
 
 You have to admit, it's definitely shorter! I know it's different syntax, but you do some really cool stuff here.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cfK9I95BYsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So, what about if you want to change an item in the DOM?  Before, we used the equal sign and changed the innerHTML, now we can change it passing a parameter into the method.  For example, we can do something like this:
 
 ```html
@@ -138,5 +144,7 @@ So, what about if you want to change an item in the DOM?  Before, we used the eq
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X89m1dnVe5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I can do that with the html() and val() methods as well. Now, that is good stuff!  Keep in mind, there are a lot more things we can do with JQuery, but I wanted to just introduce you to the concept today and then we will go into more functionality next week.

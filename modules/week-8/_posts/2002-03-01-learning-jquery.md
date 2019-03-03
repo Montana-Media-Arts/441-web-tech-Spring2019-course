@@ -57,6 +57,8 @@ Here is an example:
 
 </html>
 ```
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uO4Qxymj26w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now, try some of these other methods.  In the video below, I will go through a number of them.
 
@@ -94,4 +96,6 @@ What about animate?  It is a little different than the other methods listed abov
 </html>
 ```
 
-Again, this just shows that we are updating the style of this particular tag, but in a cooler way. 
+Again, this just shows that we are updating the style of this particular tag, but in a cooler way.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/72rOPWTTiYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -48,6 +48,8 @@ function is a function that is  called when the first function has completed.  T
 
 So, what just happened?  The paragraph element fades out slowly when the button is clicked.  Then, after the paragraph fades away, then the paragraph with the id **infoid** will toggle.  Keep in mind, it doesn't have to be another method, it can anything you want in there.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YfoY3_36cHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Chaining
 
 So, what is chaining?  This allows us to call multiple methods and have them apply to the same element.  One example might look like this:
@@ -83,3 +85,5 @@ So, what is chaining?  This allows us to call multiple methods and have them app
 ```
 
 Using the dot operator, we can chain multiple functions together and have them execute one after another.  Cool eh?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w-2W1CS8mbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
