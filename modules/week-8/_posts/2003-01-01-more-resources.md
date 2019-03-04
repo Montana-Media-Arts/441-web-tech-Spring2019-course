@@ -25,7 +25,7 @@ Please feel free to watch:
 
 
 
-Please read the following;
+Feel free read the following;
 
 1. [w3schools. "jQuery Intro"](https://www.w3schools.com/jquery/jquery_intro.asp)
 2. [w3schools. "jQuery Get Started"](https://www.w3schools.com/jquery/jquery_get_started.asp)
@@ -33,7 +33,7 @@ Please read the following;
 
 # Learning jQuery
 
-Since jQuery is so popular, there are many tutorials for learning it. For this week, you are to utilize at least one of the following tutorials to learn how to use jQuery.
+Since jQuery is so popular, there are many tutorials for learning it.  Here is a list of some tutorials.
 
 1. [w3school's "jQuery Tutorials"](https://www.w3schools.com/jquery/default.asp)
     - Read all parts in each of the following;
@@ -58,3 +58,4 @@ Since jQuery is so popular, there are many tutorials for learning it. For this w
         - [Form processing with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/form-processing-jquery/a/process-forms-with-jquery-intro)
         - [DOM animation & effects with jQuery](https://www.khanacademy.org/computing/computer-programming/html-js-jquery/dom-animation-with-jquery/p/animating-visibility-with-jquery)
 
+Thanks again to Dr. Musick for all the resources listed above.

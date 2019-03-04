@@ -6,7 +6,7 @@ jotted: false
 
 # Learning jQuery
 
-Previously, we looked at the basics of accessing items through the DOM. What other functions are available to us?  We looked at toggle?  What other methods are there?
+Previously, we looked at the basics of accessing items through the DOM. What other functions are available to us?  We looked at toggle.  Below are even more methods.
 
 Methods:
 
@@ -19,14 +19,9 @@ Methods:
 7. slideToggle()
 8. animate()
 
-Then, we will look at some Callback functions and Chaining.
-
-Yes, more terminology, but all good stuff!
-
-So, what do they look like?
+So, how do they function?
 
 Here is an example:
-
 
 ```html
 <!DOCTYPE html>
@@ -60,11 +55,9 @@ Here is an example:
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uO4Qxymj26w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Now, try some of these other methods.  In the video below, I will go through a number of them.
-
+Now, try some of these other methods and see what happens.  Just replace fadeOut with the name of the function you want to try.
 
 What about animate?  It is a little different than the other methods listed above.  Let's look at it closer.
-
 
 ```html
 <!DOCTYPE html>
@@ -96,6 +89,6 @@ What about animate?  It is a little different than the other methods listed abov
 </html>
 ```
 
-Again, this just shows that we are updating the style of this particular tag, but in a cooler way.
+Again, we are just updating the style of this particular tag, but in a cooler way by adjusting its left property.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/72rOPWTTiYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

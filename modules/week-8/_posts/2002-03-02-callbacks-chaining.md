@@ -7,12 +7,11 @@ jotted: false
 
 # Callbacks and Chaining
 
-What are these?  These extend our JQuery functionality.  They are really helpful and will reduce code required to accomplish the same task.
+What are these?  These extend our JQuery functionality even more.  They are really helpful and will reduce code required to accomplish the same task.
 
 ## Callbacks
 
-With each JQuery method, you can also add a callback function.  What is that?  A callback 
-function is a function that is  called when the first function has completed.  This look at an example.
+With each JQuery method, you can also add a callback function.  What is that?  A callback function is a function that is  called when the first function has completed.  Let's look at an example.
 
 ```html
 <!DOCTYPE html>
@@ -46,7 +45,7 @@ function is a function that is  called when the first function has completed.  T
 </html>
 ```
 
-So, what just happened?  The paragraph element fades out slowly when the button is clicked.  Then, after the paragraph fades away, then the paragraph with the id **infoid** will toggle.  Keep in mind, it doesn't have to be another method, it can anything you want in there.
+So, what just happened?  The paragraph element fades out slowly when the button is clicked.  After the paragraph fades away, then the paragraph with the id **infoid** will toggle.  Keep in mind, it doesn't have to be another JQuery method, it can anything you want in there.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YfoY3_36cHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -84,6 +83,6 @@ So, what is chaining?  This allows us to call multiple methods and have them app
 </html>
 ```
 
-Using the dot operator, we can chain multiple functions together and have them execute one after another.  Cool eh?
+Using the dot operator, we can chain multiple JQuery functions together and have them execute one after another.  Cool huh?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w-2W1CS8mbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

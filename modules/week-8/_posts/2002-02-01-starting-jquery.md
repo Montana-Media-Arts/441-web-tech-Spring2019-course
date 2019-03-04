@@ -8,7 +8,7 @@ jotted: false
 
 ## The jQuery Object
 
-jQuery works from a simple idea that all elements should be easily accessible and manipulatable. To accomplish this, jQuery utilizes a CSS-like selection process for elements. To select an element, a developer needs to pass CSS-like selections to the jQuery selector. The jQuery selector is `$()`, with the CSS selectors being placed within, typically in quotes.
+jQuery works from a simple idea that all elements should be easily accessible and manipulatable. To accomplish this, jQuery utilizes a CSS-like selection process for elements. To select an element, a developer needs to pass CSS-like selections to the jQuery selector. The jQuery selector is `$()`, with the CSS selectors being placed within double quotes.
 
 For example, to select all of the `h1` elements on a page, a developer would call the following;
 
@@ -18,7 +18,7 @@ $( "h1" )
 
 This will return a jQuery object containing a reference to the all of the matching `h1` elements in the DOM.
 
-As you will learn it is from this object that most of your work will occur for jQuery.
+As you will learn, it is from this object that most of your work will occur for jQuery.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8_o6b0wUHIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -44,7 +44,7 @@ $(function(){
 
 Once, you have a JQuery script in place, you can perform different actions such as manipulate the DOM.
 
-One example is changing all the tags at once.  You can use selector **$** with the tag in between the parentheses to change all elements.  One example might be like this:
+One example that we discussed above is changing all the tags at once.  You can use selector **$** with the tag in between the parentheses to change all elements.  One example might be like this:
 
 ```html
 <!DOCTYPE html>
@@ -76,7 +76,7 @@ One example is changing all the tags at once.  You can use selector **$** with t
 </html>
 ```
 
-Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in JQuery, so you will see this over and over.
+Notice, when you click on the button, it calls this **$("button").click** and then performs the function.  This is new syntax, but it really common in JQuery, so you will see this is many instances.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_imDTAXNC4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -116,7 +116,7 @@ This time only the paragraph with the id **infoid** will disappear while the oth
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wd5AHOC1Z6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You can also find items by their class name and you guessed it, you use the dot **dot** to find it.  For example, it might look like this:
+You can also find items by their class name and you guessed it, you use the dot `.` to find it.  For example, it might look like this:
 
 ```html
 <!DOCTYPE html>
@@ -150,7 +150,7 @@ You can also find items by their class name and you guessed it, you use the dot 
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BPDwcA6RKeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-What if we want to find the item that was just clicked? Well, you are in luck!  You can use the **this** keyword and it will find the item that was just accessed.  For example, it will look like this:
+What if we want to find the item that was just clicked? Well, you are in luck!  You can use the `this` keyword and it will find the item that was just accessed.  For example, it will look like this:
 
 ```html
 <!DOCTYPE html>
@@ -217,4 +217,5 @@ So, what is really happening behind the scenes?  Does it really remove the item?
 ```
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GyYDWOJnncg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 So, where do we go from here?  Let's go to the next page and find out!
