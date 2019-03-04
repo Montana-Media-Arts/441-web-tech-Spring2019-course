@@ -6,7 +6,7 @@ jotted: false
 
 # Using External Libraries
 
-In order to use a JS Library, you need to link in into your web application via a script tag in your HTML file. This is similar to how you link to the JavaScript files you write for these web apps. You have done this before as well!
+In order to use a JS Library, you need to link to your web application via a script tag in your HTML file. This is similar to how you link to the JavaScript files you write for these web apps. You have done this before which is good!
 
 Generally, there are two ways of linking to and using a library.
 
