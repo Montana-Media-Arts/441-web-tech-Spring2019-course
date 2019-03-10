@@ -1,6 +1,6 @@
 ---
 title: AJAX with jQuery
-module: 9
+module: 9-10
 jotted: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: jQuery Plugins
-module: 9
+module: 9-10
 jotted: false
 ---
 
