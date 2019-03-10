@@ -6,7 +6,7 @@ jotted: false
 
 # AJAX with jQuery
 
-Now, the previous examples were a little more complicated wouldn't you agree?  How does JQuery help us with that?
+The previous examples were a little more complicated wouldn't you agree?  How does JQuery help us with that?
 
 Let's look at an example:
 
@@ -32,12 +32,15 @@ Let's look at an example:
 
 </html>
 ```
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hX2sMTCjOxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The basic syntax of the JQuery AJAX call looks like this
 
 `$(selector).load(URL,data,callback);`
 
-This means we can find our elements, load some data from a URL, the data parameter, which is optional is sent with the URL, and then callback is a function to be called when the load is complete.
+This means we can access elements using the jQuery selector, load some data from a URL, send data parameters, which are optional, and then add an optional callback function when the load is complete.
 
 So, we could do something like this:
 
@@ -72,3 +75,5 @@ Here we are calling a function to be executed once the data has been retrieved a
 
 There are even more jQuery functions that you can used, but I will refer you to W3Schools to check them out.
 [W3Schools JQuery AJAX](https://www.w3schools.com/jquery/jquery_ref_ajax.asp)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m57TJlG7J_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
