@@ -67,9 +67,9 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 });
 </script>
 
-1. Can you add your own audio?
-2. Can you add your own video?
-
+1. Can you add your own audio? 
+2. Can you add your own video? Find a great meme and make it appear!
+**Hint** Remember you need a fully qualified URL here for example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
 
 ## Change Source with Events
 
@@ -155,8 +155,8 @@ function updateVideo()
 });
 </script>
 
-1. Can you change your audio?
-2. Can you change your video?
+1. Can you change your audio with JavaScript?
+2. Can you change your video with JavaScript?
 
 
 ## Changes with jQuery
