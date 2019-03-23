@@ -6,7 +6,7 @@ jotted: true
 
 # Week 11 Audio and Video
 
-Two of the most exciting tags elements introduced in HTML5 is the audio and video tags.  This allows us to embed audio and video just as easily as when we integrated images into our sites.
+Two of the most exciting tags elements introduced in HTML5 is the **audio** and **video** tags.  This allows us to embed audio and video just as easily as when we integrated images into our sites.
 
 For Audio, the syntax is like this:
 
@@ -16,7 +16,7 @@ For Audio, the syntax is like this:
         <title>Audio/Video</title>
     </head>
     <body>
-        <audio id="song" src="Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3" controls="controls">
         </audio>
         <br>
     </body>
@@ -34,7 +34,7 @@ Similarly, the video controls works the same way.  The syntax looks like this:
     </head>
     <body>
 
-        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
     </body>
@@ -48,6 +48,8 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 2. Can you add your own video? Find a great meme and make it appear!
 
 **Hint** Remember you need a fully qualified URL here for example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
+
+Well done!
 
 #### Screenshot
 
@@ -83,21 +85,18 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 });
 </script>
 
-
-
-
 ## Change Source with Events
 
 ```javascript
     var audio = document.getElementById("song");
-    audio.src="Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3";
 ```
 
 and for the video, it would like like this:
 
 ```javascript
     var film = document.getElementById("film");
-    film.src="Cat.mp4";
+    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4";
 ```
 
 So, if we put it all together now.  The html file would look like this:
@@ -110,10 +109,10 @@ So, if we put it all together now.  The html file would look like this:
     </head>
     <body>
 
-        <audio id="song" src="Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -132,13 +131,13 @@ While the JavaScript file would look like this:
 function updateAudio()
 {
     var audio = document.getElementById("song");
-    audio.src="Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3";
 }
 
 function updateVideo()
 {
     var film = document.getElementById("film");
-    film.src="Cat.mp4";
+    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4";
 }
 ```
 
@@ -148,6 +147,8 @@ function updateVideo()
 
 1. Can you change your audio with JavaScript?
 2. Can you change your video with JavaScript?
+
+Great work! Keep it up!
 
 #### Screenshot
 
@@ -197,12 +198,12 @@ $(document).ready(function(){
 
 function updateAudio()
 {
-    $("#song").attr("src", "Schubert.mp3"); 
+    $("#song").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3"); 
 }
 
 function updateVideo()
 {
-    $("#film").attr("src", "Cat.mp4");
+    $("#film").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4");
 }
 
 ```
@@ -218,10 +219,10 @@ and the HTML file would look something like this:
     </head>
     <body>
 
-        <audio id="song" src="Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
