@@ -131,10 +131,10 @@ function updateVideo()
 ```
 
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
+    new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
@@ -216,10 +216,10 @@ and the HTML file would look something like this:
 </html>
 ```
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
 <script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
+    new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
         {
             type: "js",
