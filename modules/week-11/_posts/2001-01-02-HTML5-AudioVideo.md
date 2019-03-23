@@ -76,6 +76,8 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 
 **Hint** Remember you need a fully qualified URL here for example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
 
+#### Screenshot
+
 ![Example of Audio](../imgs/audio.png "Example of Audio")
 
 ![Example of Video](../imgs/video.png "Example of Video")
@@ -168,6 +170,8 @@ function updateVideo()
 1. Can you change your audio with JavaScript?
 2. Can you change your video with JavaScript?
 
+#### Screenshot
+
 ![Example of Change](../imgs/change.png "Example of Change")
 
 ## Changes with jQuery
@@ -253,6 +257,8 @@ and the HTML file would look something like this:
 
 1. Can you change your audio with jQuery?
 2. Can you change your video with jQuery?
+
+#### Screenshot
 
 ![Example of Change](../imgs/change.png "Example of Change")
 
