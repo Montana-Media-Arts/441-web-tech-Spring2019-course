@@ -203,7 +203,7 @@ and the HTML file would look something like this:
         <audio id="song" src="Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="BOOM.mp4"` type="video/mp4" controls="true">
+        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -215,8 +215,6 @@ and the HTML file would look something like this:
     </body>
 </html>
 ```
-
-### You give it a try!
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -243,6 +241,8 @@ and the HTML file would look something like this:
     ]
 });
 </script>
+
+### Try it yourself!
 
 1. Can you change your audio with jQuery?
 2. Can you change your video with jQuery?
