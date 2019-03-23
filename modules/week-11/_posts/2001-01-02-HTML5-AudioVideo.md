@@ -67,12 +67,18 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 });
 </script>
 
+
+
 ### Try it yourself!
 
 1. Can you add your own audio? 
 2. Can you add your own video? Find a great meme and make it appear!
 
 **Hint** Remember you need a fully qualified URL here for example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
+
+![Example of Audio](../imgs/audio.png "Example of Audio")
+
+![Example of Video](../imgs/video.png "Example of Video")
 
 ## Change Source with Events
 
@@ -162,6 +168,7 @@ function updateVideo()
 1. Can you change your audio with JavaScript?
 2. Can you change your video with JavaScript?
 
+![Example of Change](../imgs/change.png "Example of Change")
 
 ## Changes with jQuery
 
@@ -247,6 +254,7 @@ and the HTML file would look something like this:
 1. Can you change your audio with jQuery?
 2. Can you change your video with jQuery?
 
+![Example of Change](../imgs/change.png "Example of Change")
 
 Good job! I knew you could do it!
 
