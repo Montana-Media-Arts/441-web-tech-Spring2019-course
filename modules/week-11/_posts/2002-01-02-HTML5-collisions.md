@@ -1,6 +1,7 @@
 ---
 title: HTML5 Collisions
 module: 11
+jotted: true
 ---
 
 # Week 11 HTML5 Collisions
@@ -22,8 +23,130 @@ function hasCollided(object1, object2) {
 
 Now, wait a minute.. you might have thought that objects were going away.. but what if I told you that you could create an object out of each of your squares (assuming you have at least two).  Then, you can send your objects into this function and it will check to see if you have collided or not.
 
-So, first things first, we need a class.  Maybe call it Square and have 5 properties for x, y, height, width, and color.  Then, create your constructor and getters and setters.
+## Try it out!
 
-Then, create two squares.  Make sure they show up on the screen. Then, make sure the first square can still move around.  It should respond to key events still.
+Do you remember how to create a class? Can you create a class called Square with the properties x, y, height, width, and color.  Then, create your constructor and getters and setters.
 
-Then, see if you can check for collision.  What happens if they collide?
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-1"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+Check to see if everything is in your objects by writing to the console.  Did it work?  Great job!
+
+
+## Try it yourself!
+
+Can you create two squares and add them to the screen? Make them different colors and different sizes. (I know you can!  The power is in you!).
+
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-2"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+## Try it yourself!
+
+Now, can you make the one square move with the KeyEvents?  Yes, yes, you can!
+
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-3"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+Look how far you have come!  I am so proud of you!
+
+## Try it yourself!
+
+Now, here comes the new stuff, check for collision.  You can use the code above and check collision between your two squares each time the first square moves.  Just make sure that it doesn't move if they collide or move the first square to a different location. Up to you!
+
+<div id="jotted-demo-4" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-4"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+
+You did it!  I am proud of you! I knew you could do it!  Is there more?  Of course there is, but we are going to wait until next week to do more.  Good job this week!

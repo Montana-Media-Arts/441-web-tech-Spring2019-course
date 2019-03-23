@@ -1,6 +1,7 @@
 ---
 title: HTML5 Key Events
 module: 11
+jotted: true
 ---
 
 # Week 11 Key Events
@@ -42,9 +43,11 @@ In the last section, we looked moving items across the screen. If you can do tha
 </html>
 ```
 
-Notice this time, we aren't moving the square automatically.  We are going to move it with keys!  Should we use WASD or arrows?  Or both?  Let's start with WASD.
+## KeyEvents
 
-So, you may recall that all keys (input) have to get translated for the computer to be able to know what key was pressed.  For example, we know that M was pressed or Q.  But each of those keys are mapped to a certain number and their numbers are stored as 0's and 1's so the computer knows what do to with them.
+Should we use WASD or arrows?  Or both?  Let's start with WASD.
+
+So, you may recall that all keys (input) have to get translated for the computer to be able to know what key was pressed.  For example, we know that M was pressed or Q.  But each of those keys are mapped to a certain number and those numbers are stored as 0's and 1's so the computer knows what do to with them.
 
 In JavaScript and jQuery, we have to either use their key's number or try and compare the actual letter.
 
@@ -63,6 +66,40 @@ function getKey(event)
 ```
 
 Remember `this`?  It's back!  This allows us to check for key events on anything that might be on the page.  Then, we can get the letter that was pressed and do something.
+
+## You try it out!
+
+How can you use the code above to move the square up?  Don't worry about the other directions (yet).
+
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-1"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+Did you get it to move up?  Good job!
+
+#### Need a hint - read below
 
 So, let me ask you this. If I wanted to go up, which letter would I press?  `w` right?  Which value would I need to change? **x** or **y**?  If you answered **y**, you are correct!  What do I need to do to **y** to make the shape move up?  Do I need to **add** to it or **subtract** from it?  Keep in mind that 0,0 is in the upper left hand corner.  If you answered **subtract** from **y**, you were correct!
 
@@ -87,6 +124,36 @@ function moveUp()
 ```
 Did you notice I put the drawSquare function in after the if statement?  Why did I need to do that?
 
-Okay so now you should be able to put the other letters in there and move your square character all around!  Exciting huh?
+## You try it out!
+
+Can you put in the other letters? 
+
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-2"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/handsonscript.js"
+        },
+        {
+            type: "html",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech-Spring2019/master/Week%2011%20Examples/HandsOnExample.html"
+
+    }],
+    showBlank: false,
+    showResult: true,
+    runScripts: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 100, "Lines": 100 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
+
+Did it work?  Great!
 
 So, what about collisions?  Go to the next section and we will see about that!

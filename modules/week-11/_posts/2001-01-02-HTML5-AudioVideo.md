@@ -49,15 +49,11 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 
 **Hint** Remember you need a fully qualified URL here for example: **https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3**
 
-Well done!
-
 #### Screenshot
 
 ![Example of Audio](../imgs/audio.png "Example of Audio")
 
 ![Example of Video](../imgs/video.png "Example of Video")
-
-
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -84,6 +80,8 @@ Well done!
     ]
 });
 </script>
+
+Well done!
 
 ## Change Source with Events
 
@@ -141,14 +139,10 @@ function updateVideo()
 }
 ```
 
-
-
 ### Try it yourself!
 
 1. Can you change your audio with JavaScript?
 2. Can you change your video with JavaScript?
-
-Great work! Keep it up!
 
 #### Screenshot
 
@@ -181,6 +175,7 @@ Great work! Keep it up!
 });
 </script>
 
+Great work! Keep it up!
 
 ## Changes with jQuery
 
@@ -271,7 +266,6 @@ and the HTML file would look something like this:
 });
 </script>
 
-
 Good job! I knew you could do it!
 
-The biggest difference would be removing the onclick event handler for each button and adding an id attribute to each button.  So, what about the canvas?
+So, what about the canvas?
