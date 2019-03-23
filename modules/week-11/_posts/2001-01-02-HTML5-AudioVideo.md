@@ -1,6 +1,7 @@
 ---
 title: HTML5 Audio and Video
 module: 11
+jotted: true
 ---
 
 # Week 11 Audio and Video
@@ -33,7 +34,7 @@ Similarly, the video controls works the same way.  The syntax looks like this:
     </head>
     <body>
 
-        <video id="film" src="BOOM.mp4"` type="video/mp4" controls="true">
+        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
     </body>
@@ -97,7 +98,7 @@ So, if we put it all together now.  The html file would look like this:
         <audio id="song" src="Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="BOOM.mp4"` type="video/mp4" controls="true">
+        <video id="film" src="BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -109,8 +110,6 @@ So, if we put it all together now.  The html file would look like this:
     </body>
 </html>
 ```
-
-
 
 While the JavaScript file would look like this:
 
