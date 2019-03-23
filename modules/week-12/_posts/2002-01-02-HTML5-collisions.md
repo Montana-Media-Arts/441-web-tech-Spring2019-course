@@ -1,10 +1,10 @@
 ---
 title: HTML5 Collisions
-module: 11
+module: 12
 jotted: true
 ---
 
-# Week 11 HTML5 Collisions
+# HTML5 Collisions
 
 With any game, you need to be able to handle collisions. We are going to use a really simple box collider.  It basically checks the corners of the boxes to see if they are overlapping.  If they are, then it returns true, else it returns false.  Keep in mind, collision can be more precise but it takes more processing because of all the points that must be checked.  Also, collision must be checked whenever something moves.
 

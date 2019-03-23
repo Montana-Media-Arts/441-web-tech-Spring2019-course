@@ -1,10 +1,10 @@
 ---
 title: HTML5 Audio and Video
-module: 11
+module: 12
 jotted: true
 ---
 
-# Week 11 Audio and Video
+# Audio and Video
 
 Two of the most exciting tags elements introduced in HTML5 is the **audio** and **video** tags.  This allows us to embed audio and video just as easily as when we integrated images into our sites.
 

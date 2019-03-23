@@ -1,10 +1,10 @@
 ---
 title: HTML5 Canvas
-module: 11
+module: 12
 jotted: true
 ---
 
-# Week 11 HTML5 Canvas
+# HTML5 Canvas
 
 The HTML5 Canvas is a revolutionary tag element that provides a number of benefits such as:
 

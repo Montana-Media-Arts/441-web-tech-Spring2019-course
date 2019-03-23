@@ -1,10 +1,10 @@
 ---
 title: HTML5 Key Events
-module: 11
+module: 12
 jotted: true
 ---
 
-# Week 11 Key Events
+# Key Events
 
 In the last section, we looked moving items across the screen. If you can do that, then you can move something with a key event too. Let's use our code frome before to draw a blue square:
 
