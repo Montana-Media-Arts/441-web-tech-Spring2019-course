@@ -69,7 +69,7 @@ How can you make a border around the canvas?  Use the code above to make a borde
 });
 </script>
 
-Did it work? Good job!
+Did it work? Yes? Good job!
 
 ## How do we draw?
 
@@ -115,6 +115,6 @@ Now, we can draw something by adding these two lines.  You should see a single b
 });
 </script>
 
-Did you get a little blue square?  Nicely done!
+Did you get a little blue square? Yes? Nicely done!
 
 So, what else can we do?

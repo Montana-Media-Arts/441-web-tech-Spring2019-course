@@ -8,7 +8,7 @@ jotted: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pu0i31fMOpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Two of the most exciting tags elements introduced in HTML5 is the **audio** and **video** tags.  This allows us to embed audio and video just as easily as when we integrated images into our sites.
+Two of the most exciting tags elements introduced in HTML5 is the `audio` and `video` tags.  This allows us to embed audio and video just as easily as when we integrated images into our sites.
 
 For Audio, the syntax is like this:
 
@@ -25,7 +25,7 @@ For Audio, the syntax is like this:
 </html>
 ```
 
-As you can see the audio tag sets the src of the song and then plays the song.  There is an attribute called controls which allow the basic controls to appear for the music player.
+As you can see the audio tag sets the src of the song and then plays the song.  There is an attribute called **controls** which allow the basic controls to appear for the music player.
 
 Similarly, the video controls works the same way.  The syntax looks like this:
 
@@ -83,9 +83,11 @@ Similarly, the video controls works the same way.  The syntax looks like this:
 });
 </script>
 
-Well done!
+Did it work? Yes? Well done!
 
 ## Change Source with Events
+
+For audio it looks like this:
 
 ```javascript
     var audio = document.getElementById("song");
@@ -177,9 +179,11 @@ function updateVideo()
 });
 </script>
 
-Great work! Keep it up!
+Did you get it? Yes? Great work! Keep it up!
 
 ## Changes with jQuery
+
+We can do the same thing in jQuery like this:
 
 ```javascript
 $(document).ready(function(){
@@ -268,6 +272,6 @@ and the HTML file would look something like this:
 });
 </script>
 
-Good job! I knew you could do it!
+You got it again? Yes? Good job! I knew you could do it!
 
 So, what about the canvas?

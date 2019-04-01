@@ -55,7 +55,7 @@ Do you remember how to create a class? Can you create a class called Square with
 });
 </script>
 
-Check to see if everything is in your objects by writing to the console.  Did it work?  Great job!
+Check to see if everything is in your objects by writing to the console.  Did it work? Yes? Great job!
 
 
 ## Try it yourself!
@@ -90,7 +90,7 @@ Can you create two squares and add them to the screen? Make them different color
 
 ## Try it yourself!
 
-Now, can you make the one square move with the KeyEvents?  Yes, yes, you can!
+Now, can you make the one square move with the KeyEvents using WASD?  Yes, yes, you can!
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
@@ -122,7 +122,7 @@ Look how far you have come!  I am so proud of you!
 
 ## Try it yourself!
 
-Now, here comes the new stuff, check for collision.  You can use the code above and check collision between your two squares each time the first square moves.  Just make sure that it doesn't move if they collide or move the first square to a different location. Up to you!
+Now, here comes the new stuff, check for collision.  You can use the code above and check collision between your two squares each time the first square moves.  Just make sure that the first square can no longer move or have the first square move back a bit from the second square (like a bounce)if they collide or move. It's up to you!
 
 <div id="jotted-demo-4" class="jotted-theme-stacked"></div>
 

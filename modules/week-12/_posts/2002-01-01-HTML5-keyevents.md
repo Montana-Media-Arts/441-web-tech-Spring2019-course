@@ -8,7 +8,7 @@ jotted: true
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SkXtDH2aGwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In the last section, we looked moving items across the screen. If you can do that, then you can move something with a key event too. Let's use our code frome before to draw a blue square:
+In the last section, we looked at moving items across the screen. If you can do that, then you can move something with a key event too. Let's use our code frome before to draw a blue square:
 
 ```html
 <html>
@@ -49,7 +49,7 @@ In the last section, we looked moving items across the screen. If you can do tha
 
 Should we use WASD or arrows?  Or both?  Let's start with WASD.
 
-So, you may recall that all keys (input) have to get translated for the computer to be able to know what key was pressed.  For example, we know that M was pressed or Q.  But each of those keys are mapped to a certain number and those numbers are stored as 0's and 1's so the computer knows what do to with them.
+You may recall that all keys (input) have to get translated for the computer to be able to know which key was pressed.  For example, we know that M was pressed or Q. Did you know that each of those keys are mapped to a certain number and those numbers are stored as 0's and 1's so the computer knows what do to with them?  Cool huh?
 
 In JavaScript and jQuery, we have to either use their key's number or try and compare the actual letter.
 
@@ -99,7 +99,7 @@ How can you use the code above to move the square up?  Don't worry about the oth
 });
 </script>
 
-Did you get it to move up?  Good job!
+Did you get it to move up? Yes?  Good job!
 
 #### Need a hint - read below
 
@@ -156,6 +156,6 @@ Can you put in the other letters?
 });
 </script>
 
-Did it work?  Great!
+Did it work? Yes? Great!
 
 So, what about collisions?  Go to the next section and we will see about that!
