@@ -1,6 +1,7 @@
 ---
 title: Canvas Classes
 module: 13
+jotted: true
 ---
 
 # Class and Object Review

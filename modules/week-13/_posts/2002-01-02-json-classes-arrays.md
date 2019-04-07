@@ -1,6 +1,7 @@
 ---
 title: JSON, Classes, and Arrays
 module: 13
+jotted: true
 ---
 
 # Combining JSON, Classes and Arrays

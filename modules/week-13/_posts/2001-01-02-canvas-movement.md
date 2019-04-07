@@ -1,6 +1,7 @@
 ---
 title: Canvas Movement
 module: 13
+jotted: true
 ---
 
 # Canvas Movement
