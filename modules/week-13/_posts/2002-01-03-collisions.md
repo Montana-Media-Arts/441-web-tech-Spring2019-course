@@ -1,5 +1,5 @@
 ---
-title: JSON, Classes, and Arrays
+title: Collisions
 module: 13
 jotted: true
 ---
