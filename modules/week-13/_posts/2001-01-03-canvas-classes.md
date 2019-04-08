@@ -6,6 +6,8 @@ jotted: true
 
 # Class and Object Review
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hu9PQ4JYwzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Recall, the Key Events can implemented using the following jQuery events
 
 ```javascript
