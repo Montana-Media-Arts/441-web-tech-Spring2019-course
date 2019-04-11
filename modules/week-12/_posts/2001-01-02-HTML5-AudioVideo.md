@@ -36,7 +36,7 @@ Similarly, the video controls works the same way.  The syntax looks like this:
     </head>
     <body>
 
-        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
     </body>
@@ -91,14 +91,14 @@ For audio it looks like this:
 
 ```javascript
     var audio = document.getElementById("song");
-    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Schubert.mp3";
 ```
 
 and for the video, it would like like this:
 
 ```javascript
     var film = document.getElementById("film");
-    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4";
+    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Cat.mp4";
 ```
 
 So, if we put it all together now.  The html file would look like this:
@@ -111,10 +111,10 @@ So, if we put it all together now.  The html file would look like this:
     </head>
     <body>
 
-        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
@@ -133,13 +133,13 @@ While the JavaScript file would look like this:
 function updateAudio()
 {
     var audio = document.getElementById("song");
-    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3";
+    audio.src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Schubert.mp3";
 }
 
 function updateVideo()
 {
     var film = document.getElementById("film");
-    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4";
+    film.src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Cat.mp4";
 }
 ```
 
@@ -199,12 +199,12 @@ $(document).ready(function(){
 
 function updateAudio()
 {
-    $("#song").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/data/Schubert.mp3"); 
+    $("#song").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Schubert.mp3"); 
 }
 
 function updateVideo()
 {
-    $("#film").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/data/Cat.mp4");
+    $("#film").attr("src", "https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Cat.mp4");
 }
 
 ```
@@ -220,10 +220,10 @@ and the HTML file would look something like this:
     </head>
     <body>
 
-        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/Brahms.mp3" controls="controls">
+        <audio id="song" src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/Brahms.mp3" controls="controls">
         </audio>
         <br>
-        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/data/BOOM.mp4" type="video/mp4" controls="true">
+        <video id="film" src="https://montana-media-arts.github.io/web-tech-Spring2019/modules/week-12/data/BOOM.mp4" type="video/mp4" controls="true">
         </video>
 
         <p></p>
