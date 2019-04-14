@@ -1,8 +1,8 @@
 ---
-title: Week 13 Conclusions
-module: 13
+title: Week 14 Conclusions
+module: 14
 ---
 
 # Conclusions
 
-You are doing a great job and this was a combo week! I hope you found it interesting and enlightening.  I hope it showed just how much you have learned.  Until next week!
+So this is the end of the formal part of this class.  This week is entirely extra credit so whatever you choose to do can only help you!  Good luck working on your final project and please let me know if there is anything I can do!
