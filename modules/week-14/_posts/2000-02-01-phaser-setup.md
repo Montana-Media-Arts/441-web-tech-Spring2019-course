@@ -30,7 +30,7 @@ Don't forget to get the assets from GitHub
 
 [Get the Assets](https://github.com/photonstorm/phaser3-examples)
 
-[Assets for the walkthrough](https://github.com/Montana-Media-Arts/web-tech-Spring2019/tree/master/modules/week-14/imgs)
+[Assets for the walkthrough](https://github.com/Montana-Media-Arts/441-WebTech-Spring2019/tree/master/Week%2014%20Examples)
 Put these directly in the assets folder.
 
 ## Create a "Hello World!" in Phaser.io
