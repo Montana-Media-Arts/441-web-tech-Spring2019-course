@@ -6,6 +6,8 @@ jotted: true
 
 # Phaser.io Part 6
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TDep632M70M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The nice part about Phaser is that it gives us collision built-in.  Remember how we had to deal with it ourselves?  This library handles the collisions with one simple statement. Nice eh?
 
 ```html

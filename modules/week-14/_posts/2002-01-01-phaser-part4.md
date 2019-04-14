@@ -6,6 +6,8 @@ jotted: true
 
 # Phaser.io Part 4
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eApKKiZoUb4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Now, we are going to create some platforms.  They will be added to a group first and then we will add some physics to the platforms.  Let's see how they look with the sky background.
 
 ```html

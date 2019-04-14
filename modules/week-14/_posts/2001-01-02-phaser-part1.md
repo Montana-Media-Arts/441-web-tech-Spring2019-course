@@ -6,6 +6,8 @@ jotted: true
 
 # Phaser.io Part 1
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Yz4Q_amBYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 This first part is just setting up the canvas. Even though you may have not seen this libary before, the concepts will look the same.  Let's look at the first step.  Create a file called: part1.html and paste this code into it:
 
 ```html

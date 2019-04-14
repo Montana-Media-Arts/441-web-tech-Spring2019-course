@@ -6,6 +6,8 @@ jotted: true
 
 # Phaser.io Part 7
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a5wiZ2knCTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Let's make the player move now.  This happens in the update function as it gets called each frame.  It allows you press keys and then change the velocity of the player.
 
 ```html

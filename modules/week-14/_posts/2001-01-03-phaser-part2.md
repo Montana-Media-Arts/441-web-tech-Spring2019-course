@@ -6,6 +6,8 @@ jotted: true
 
 # Phaser.io Part 2
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mKbaClVmG0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In this next second section, we will pre-load all the image assets.  Let's take a look:
 
 ```html
