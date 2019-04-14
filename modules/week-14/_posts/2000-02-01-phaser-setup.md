@@ -94,3 +94,7 @@ Put these directly in the assets folder.
 </body>
 </html>
 ```
+
+This is what it should look like
+
+![Phaser Hello World](../imgs/PhaserHello.png "Phaser Hello World")
